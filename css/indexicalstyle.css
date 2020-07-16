@@ -1,0 +1,49 @@
+body {
+  font-size: 36;
+  font-kerning: normal;
+  padding: 3ch;
+  margin: auto;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  height: 90vh
+}
+
+p {
+  line-height: 1.2;
+  margin: .3em 0
+}
+
+.signature {
+  margin-top: 1.5em;}
+
+.signature p {
+  text-align: right;
+  margin: 0;
+  
+}
+
+a {
+  color: black;
+  text-decoration:none;
+  border-bottom-style:dashed;
+  border-bottom-width: .06em;
+}
+
+a:hover {
+  font-style: italic; 
+}
+
+.midbox {*/
+  grid-row: 2/2;
+  align-self: center;
+}
+
+.topbox {grid-row:1/1;}
+.botbox {grid-row:3/3;}
+
+@media screen and (min-aspect-ratiO: 5/6) {
+  body {
+    max-width: 45ch;
+    font-size: 24;
+  }
+}
