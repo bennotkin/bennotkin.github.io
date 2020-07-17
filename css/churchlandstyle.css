@@ -1,1 +1,83 @@
+body {
+  font-size: 24;
+  font-kerning: normal;
+  padding: 3ch;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1em auto 2em;
+  height: 90vh
+}
 
+p {
+  line-height: 1.2;
+  margin: .3em 0
+}
+
+.sc {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: .75em;
+  font-family: sans-serif;
+  letter-spacing: 0.1ch
+}
+
+.signature {
+  margin-top: 0.5em;
+  text-align: left;
+  font-style: italic;
+/*
+  font-size: .7em;
+  text-transform:uppercase;
+  letter-spacing: .2ch;
+  line-height: 1.7
+*/
+}
+
+a {
+  color: black;
+  text-decoration:none;
+  border-bottom-style:dashed;
+  border-bottom-width: .06em;
+}
+
+a:hover {
+  font-style: italic; 
+}
+
+input, textarea, button {
+  width: 100%;
+  border: 1px solid black;
+  font-family: sans-serif;
+  padding: .5ch;
+  font-size: 18
+}
+
+/*input[name=church-contact-name], input[name=church-contact-contact] {width: 49.1%}*/
+
+input + input {margin-top: 1em}
+
+button[type=submit] {
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+button:hover {font-style:italic}
+
+.disclaimer {font-family: sans-serif; font-size: .7em;}
+
+.midbox {*/
+  grid-row: 2/2;
+  align-self: center;
+}
+
+.topbox {grid-row:1/1;}
+.botbox {grid-row:3/3;}
+
+@media screen and (min-aspect-ratiO: 5/6) {
+  body {
+    max-width: 45ch;
+    font-size: 24;
+  }
+}
