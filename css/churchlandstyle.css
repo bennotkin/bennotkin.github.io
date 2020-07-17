@@ -1,5 +1,5 @@
 body {
-  font-size: 36;
+  font-size: 24;
   font-kerning: normal;
   padding: 3ch;
   margin: 0 auto;
@@ -49,16 +49,12 @@ input, textarea, button {
   border: 1px solid black;
   font-family: sans-serif;
   padding: .5ch;
-  font-size: 18;
-  resize: none;
+  font-size: 18
 }
-
-textarea#church-description {resize: vertical;}
 
 /*input[name=church-contact-name], input[name=church-contact-contact] {width: 49.1%}*/
 
-textarea + textarea {margin-top: 1em}
-
+input + input {margin-top: 1em}
 
 button[type=submit] {
   background-color: white;
