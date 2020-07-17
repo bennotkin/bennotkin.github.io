@@ -1,24 +1,6 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="/css/churchlandstyle.css">
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script type='text/javascript'>
-        $(document).ready(function(){
-            $('#myForm input').keydown(function(e){
-             if(e.keyCode==13){       
-
-                if($(':input:eq(' + ($(':input').index(this) + 1) + ')').attr('type')=='submit'){// check for submit button and submit form on enter press
-                 return true;
-                }
-
-                $(':input:eq(' + ($(':input').index(this) + 1) + ')').focus();
-
-               return false;
-             }
-
-            });
-        });
-        </script>
   </head>
   <body>
     <div class="topbox"></div>
@@ -29,15 +11,15 @@
       <p>I'm reseaching how churches go about the process of developing their land for new use so I can put together resources for churches looking to develop in the future. <a href="mailto:notkin@gsd.harvard.edu">Email me</a> to talk more about it!</p>
       <form action="https://getform.io/f/33e6eb04-9273-491b-aa26-5466ed9b9371" id="myForm" method="POST" enctype="multipart/form-data">
         <h2 class="sc">What's the church?</h2>
-        <input class="nosubmit" type="text" name="church-name" placeholder="Name of the church" required>
+        <textarea class="nosubmit" type="text" name="church-name" placeholder="Name of the church" required rows="1" rows="1"></textarea>
         <h2 class="sc">What city is it in</h2>
-        <input class="nosubmit" type="text" name="church-city" required placeholder="City, State">
+        <textarea class="nosubmit" type="text" name="church-city" required placeholder="City, State" rows="1"></textarea>
         <h2 class="sc">Who are you? (Optional)</h2>
-        <input class="nosubmit" type="text" name="your-name" placeholder="Your name">
-        <input class="nosubmit"a type="text" name="your-contact" placeholder="Your email or phone"> 
+        <textarea class="nosubmit" type="text" name="your-name" placeholder="Your name" rows="1"></textarea>
+        <textarea class="nosubmit"a type="text" name="your-contact" placeholder="Your email or phone" rows="1"></textarea> 
         <h2 class="sc">Who else could I talk to about it? (Optional)</h2>
-        <input class="nosubmit" type="text" name="church-contact-name" placeholder="Contact name">
-        <input class="nosubmit" type="text" name="church-contact-contact" placeholder="Contact email or phone">
+        <textarea class="nosubmit" type="text" name="church-contact-name" placeholder="Contact name" rows="1"></textarea>
+        <textarea class="nosubmit" type="text" name="church-contact-contact" placeholder="Contact email or phone" rows="1"></textarea>
         <h2 class="sc">Anything to say about it? (optional)</h2>
         <textarea id="church-description" placeholder="What do you find interesting about the project? Who was involved? What was built? What were the goals? etc." rows=4></textarea>
         <button type="submit">Submit!</button>
@@ -45,66 +27,4 @@
       <p class="disclaimer">Research is funded by Harvard University.</p>
     </div>
   </body>
-              
-                                 <!-- html-form-to-gsheets for later: https://script.google.com/macros/s/AKfycbxRISU1s-EMSGS-uiOvo1BGPIycpmqWY7ncmS4uQYmcoAssK4Hn/exec -->
-<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-    </script>
-    <script>
-      $.fn.serializeObject = function()
-{
-var o = {};
-var a = this.serializeArray();
-$.each(a, function() {
-if (o[this.name]) {
-if (!o[this.name].push) {
-o[this.name] = [o[this.name]];
-}
-o[this.name].push(this.value || ‘’);
-} else {
-o[this.name] = this.value || ‘’;
-}
-});
-return o;
-};
-      
-      var $form = $('form#test-form'),
-        url = 'https://script.google.com/macros/s/AKfycbxRISU1s-EMSGS-uiOvo1BGPIycpmqWY7ncmS4uQYmcoAssK4Hn/exec'
-
-    $('#submit-form').on('click', function(e) {
-      e.preventDefault();
-      var jqxhr = $.ajax({
-        url: url,
-        method: "GET",
-        dataType: "json",
-        data: $form.serializeObject()
-      }).success(
-        // do something
-      );
-})
-    </script>-->
-<!--        <p>I'm exploring cases of churches deciding to develop – tear down &amp; build up, remodel, <em>change</em> – their land to make it fit for some new purpose (say, housing, or biotech laboratories?). Often this means selling the property to a developer, often it does not. I'm curious about all of it.
-      </p>
-      <p>I'm researching church land development to put together resources for churches going through the process. Help me out by letting me know of any cases!</p>-->
-<!--      <form id="test-form">
-        <div>
-          <label>Field 1</label>
-          <input type="text" name="form_field_1" placeholder="Field 1"/>
-        </div>
-
-        <div>
-          <label>Field 2</label>
-          <input type="text" name="form_field_2" placeholder="Field 2"/>
-        </div>
-
-        <div>
-          <label>Field 3</label>
-          <input type="text" name="form_field_3" placeholder="Field 3"/>
-        </div>
-
-        <div>
-          <button type="submit"id="submit-form">Submit</button>
-        </div>
-
-      </form>-->
 </html>
-                             
