@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="indexicalstyle.css">
+    <!-- html-form-to-gsheets for later: https://script.google.com/macros/s/AKfycbxRISU1s-EMSGS-uiOvo1BGPIycpmqWY7ncmS4uQYmcoAssK4Hn/exec -->
+    <script>var $form = $('form#test-form'),
+      url = 'https://script.google.com/macros/s/AKfycbxRISU1s-EMSGS-uiOvo1BGPIycpmqWY7ncmS4uQYmcoAssK4Hn/exec'
+
+  $('#submit-form').on('click', function(e) {
+    e.preventDefault();
+    var jqxhr = $.ajax({
+      url: url,
+      method: "GET",
+      dataType: "json",
+      data: $form.serializeObject()
+    }).success(
+      // do something
+    );
+})</script>
+  </head>
+  <body>
+    <div class="topbox"></div>
+    <div class="botbox"></div>
+    <div class="midbox">
+    <h2 class="sc">Know of a church developing its land?</h2>
+      <p>Sometimes churches have land, and sometimes churches choose to start using that land differently. I'm exploring cases of churches deciding to develop – tear down &amp; build up, remodel, <em>change</em> – their land to make it fit for some new purpose (say, housing, or biotech laboratories?). Often this means selling the property to a developer, often it does not. I'm curious about all of it.
+      </p>
+      <p>I'm researching church land development to put together resources for churches going through the process. Help me out by letting me know of any cases!</p>
+      <form id="test-form">
+        <div>
+          <label>Field 1</label>
+          <input type="text" name="form_field_1" placeholder="Field 1"/>
+        </div>
+
+        <div>
+          <label>Field 2</label>
+          <input type="text" name="form_field_2" placeholder="Field 2"/>
+        </div>
+
+        <div>
+          <label>Field 3</label>
+          <input type="text" name="form_field_3" placeholder="Field 3"/>
+        </div>
+
+        <div>
+          <button type="submit"id="submit-form">Submit</button>
+        </div>
+
+      </form>
+          </div>
+  </body>
+</html>
