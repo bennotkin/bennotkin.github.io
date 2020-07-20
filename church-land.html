@@ -4,17 +4,6 @@
     <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
     <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
     <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
-    <script type="application/javascript">
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbyr6HydOtGeP_Db3Ofss-ZGKBWZ1dDcyN7Gjx7F0fBquf93HkY/exec'
-      const form = document.forms['submit-to-google-sheet']
-
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => { console.log('Success!', response); window.location.href="https://bennotkin.github.io/church-land.html";} )
-          .catch(error => { console.error('Error!', error.message)} )
-      })
-    </script>
   </head>
   <body>
     <div class="topbox"></div>
@@ -39,6 +28,17 @@
         <!-- <textarea id="church-description" name="description" placeholder="What do you find interesting about the project? Who was involved? What was built? What were the goals? etc." rows=4></textarea> -->
         <button type="submit">Send</button>
       </form>
+          <script type="application/javascript">
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbyr6HydOtGeP_Db3Ofss-ZGKBWZ1dDcyN7Gjx7F0fBquf93HkY/exec'
+      const form = document.forms['submit-to-google-sheet']
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => { console.log('Success!', response); window.location.href="https://bennotkin.github.io/church-land.html";} )
+          .catch(error => { console.error('Error!', error.message)} )
+      })
+    </script>
       <p class="disclaimer">If you are not soon directed to a new page after submitting, please send your response to <a href="mailto:notking@gsd.harvard.edu">notkin(at)gsd.harvard.edu</a>. I'm sorry for the inconvenience.<br><br></p>
       <p class="disclaimer">Research is conducted by Ben Notkin and funded by the Harvard University Graduate School of Design.</p>
     </div>
