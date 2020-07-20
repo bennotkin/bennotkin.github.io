@@ -1,24 +1,20 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="/css/churchlandstyle.css">
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script type='text/javascript'>
-        $(document).ready(function(){
-            $('#myForm input').keydown(function(e){
-             if(e.keyCode==13){       
+    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+    <script type="application/javascript">
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbyr6HydOtGeP_Db3Ofss-ZGKBWZ1dDcyN7Gjx7F0fBquf93HkY/exec'
+      const form = document.forms['submit-to-google-sheet']
 
-                if($(':input:eq(' + ($(':input').index(this) + 1) + ')').attr('type')=='submit'){// check for submit button and submit form on enter press
-                 return true;
-                }
-
-                $(':input:eq(' + ($(':input').index(this) + 1) + ')').focus();
-
-               return false;
-             }
-
-            });
-        });
-        </script>
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => { console.log('Success!', response); window.location.href="https://bennotkin.github.io/church-land.html";} )
+          .catch(error => { console.error('Error!', error.message)} )
+      })
+    </script>
   </head>
   <body>
     <div class="topbox"></div>
@@ -27,78 +23,22 @@
     <h2 class="sc">Know of a church developing its land?</h2>
       <p>Sometimes churches have land, and sometimes churches choose to start using that land differently.</p>
       <p>I'm reseaching how churches go about the process of developing their land for new use so I can put together resources for churches looking to develop in the future. <a href="mailto:notkin@gsd.harvard.edu">Email me</a> to talk more about it!</p>
-      <form action="https://getform.io/f/33e6eb04-9273-491b-aa26-5466ed9b9371" id="myForm" method="POST" enctype="multipart/form-data">
+      <form name="submit-to-google-sheet">
         <h2 class="sc">What's the church?</h2>
-        <input class="nosubmit" type="text" name="church-name" placeholder="Name of the church" required>
+        <input class="nosubmit" type="text" name="church_name" placeholder="Name of the church" required>
         <h2 class="sc">What city is it in</h2>
-        <input class="nosubmit" type="text" name="church-city" required placeholder="City, State">
+        <input class="nosubmit" type="text" name="church_city" required placeholder="City, State">
         <h2 class="sc">Who are you? (Optional)</h2>
-        <input class="nosubmit" type="text" name="your-name" placeholder="Your name">
-        <input class="nosubmit"a type="text" name="your-contact" placeholder="Your email or phone"> 
+        <input class="nosubmit" type="text" name="user_name" placeholder="Your name">
+        <input class="nosubmit"a type="email" name="user_email" placeholder="Your email"> 
         <h2 class="sc">Who else could I talk to about it? (Optional)</h2>
-        <input class="nosubmit" type="text" name="church-contact-name" placeholder="Contact name">
-        <input class="nosubmit" type="text" name="church-contact-contact" placeholder="Contact email or phone">
+        <input class="nosubmit" type="text" name="contact_name" placeholder="Contact name">
+        <input class="nosubmit" type="text" name="contact_contact" placeholder="Contact email or phone">
         <h2 class="sc">Anything to say about it? (optional)</h2>
-        <textarea id="church-description" name="church-description" placeholder="What do you find interesting about the project? Who was involved? What was built? What were the goals? etc." rows=4></textarea>
-        <button type="submit">Submit!</button>
+        <textarea id="church-description" name="description" placeholder="What do you find interesting about the project? Who was involved? What was built? What were the goals? etc." rows=4></textarea>
+        <button type="submit">Send</button>
       </form>
-      <p class="disclaimer">Research is funded by Harvard University.</p>
+      <p class="disclaimer">If you are not soon directed to a new page after submitting, please send your response to <a href="mailto:notking@gsd.harvard.edu">notkin(at)gsd.harvard.edu</a>. I'm sorry for the inconvenience.<br><br></p>
+      <p class="disclaimer">Research is conducted by Ben Notkin and funded by the Harvard University Graduate School of Design.</p>
     </div>
   </body>
-              
-                                 <!-- html-form-to-gsheets for later: https://script.google.com/macros/s/AKfycbxRISU1s-EMSGS-uiOvo1BGPIycpmqWY7ncmS4uQYmcoAssK4Hn/exec -->
-<!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
-    </script>
-    <script>
-      $.fn.serializeObject = function()
-{
-var o = {};
-var a = this.serializeArray();
-$.each(a, function() {
-if (o[this.name]) {
-if (!o[this.name].push) {
-o[this.name] = [o[this.name]];
-}
-o[this.name].push(this.value || ‘’);
-} else {
-o[this.name] = this.value || ‘’;
-}
-});
-return o;
-};
-      
-      var $form = $('form#test-form'),
-        url = 'https://script.google.com/macros/s/AKfycbxRISU1s-EMSGS-uiOvo1BGPIycpmqWY7ncmS4uQYmcoAssK4Hn/exec'
-    $('#submit-form').on('click', function(e) {
-      e.preventDefault();
-      var jqxhr = $.ajax({
-        url: url,
-        method: "GET",
-        dataType: "json",
-        data: $form.serializeObject()
-      }).success(
-        // do something
-      );
-})
-    </script>-->
-<!--        <p>I'm exploring cases of churches deciding to develop – tear down &amp; build up, remodel, <em>change</em> – their land to make it fit for some new purpose (say, housing, or biotech laboratories?). Often this means selling the property to a developer, often it does not. I'm curious about all of it.
-      </p>
-      <p>I'm researching church land development to put together resources for churches going through the process. Help me out by letting me know of any cases!</p>-->
-<!--      <form id="test-form">
-        <div>
-          <label>Field 1</label>
-          <input type="text" name="form_field_1" placeholder="Field 1"/>
-        </div>
-        <div>
-          <label>Field 2</label>
-          <input type="text" name="form_field_2" placeholder="Field 2"/>
-        </div>
-        <div>
-          <label>Field 3</label>
-          <input type="text" name="form_field_3" placeholder="Field 3"/>
-        </div>
-        <div>
-          <button type="submit"id="submit-form">Submit</button>
-        </div>
-      </form>-->
-</html>
