@@ -34,7 +34,7 @@
       form.addEventListener('submit', e => {
         e.preventDefault()
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => { console.log('Success!', response); window.location.href="https://bennotkin.github.io/church-land.html";} )
+          .then(response => { console.log('Success!', response); window.location.href="https://bennotkin.github.io/church-land/form-submitted.html";} )
           .catch(error => { console.error('Error!', error.message)} )
       })
     </script>
