@@ -5,7 +5,7 @@
 <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
   </head>
   <body>
-    <h1>form-3</h1>
+    <h1>form-4</h1>
 <form name="submit-to-google-sheet">
   <input name="email" type="email" placeholder="Email" required>
   <button type="submit">Send</button>
@@ -18,8 +18,8 @@
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message))
+      .then(response => console.log('Success!', response); window.location.href="https://bennotkin.github.io)
+      .catch(error => console.error('Error!', error.message); window.location.href="https://bennotkin.github.io/blog")
   })
 </script>
   </body>
