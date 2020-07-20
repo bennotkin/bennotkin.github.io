@@ -17,8 +17,8 @@
   form.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message))
+      .then(response => console.log('Success!', response), location = "https://bennotkin.github.io/church-land.html")
+      .catch(error => console.error('Error!', error.message), location = "https://bennotkin.github.io/404")
   })
 </script>
   </body>
