@@ -72,8 +72,9 @@ button[type=submit] {
 
 /* these are for checkbox labels, because I only use label for checkboxes; should be more specific though */
 label {
-  white-space: nowrap;
   display: block;
+  white-space: nowrap;
+  margin: 1em 0;
 }
 
 label input {
@@ -86,6 +87,9 @@ label span {
   vertical-align: top;
   position: relative;
   top: 2px;
+  font-family: sans-serif;
+  font-size: 18;
+  margin-left: .5ch;
 }
 
 button:hover {font-style:italic}
