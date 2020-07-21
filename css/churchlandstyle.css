@@ -74,7 +74,7 @@ button[type=submit] {
 label {
   display: block;
   white-space: nowrap;
-  margin: 1em 0;
+  margin-top: .83em;
 }
 
 label input {
@@ -86,7 +86,7 @@ label span {
   white-space: normal;
   vertical-align: top;
   position: relative;
-  top: 2px;
+  top: -1px;
   font-family: sans-serif;
   font-size: 18;
   margin-left: .5ch;
