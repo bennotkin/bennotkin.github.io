@@ -70,6 +70,24 @@ button[type=submit] {
   cursor: pointer;
 }
 
+/* these are for checkbox labels, because I only use label for checkboxes; should be more specific though */
+label {
+  white-space: nowrap;
+  display: block;
+}
+
+label input {
+  vertical-align: middle;
+}
+
+label span {
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+  position: relative;
+  top: 2px;
+}
+
 button:hover {font-style:italic}
 
 .disclaimer {font-family: sans-serif; font-size: .7em;}
