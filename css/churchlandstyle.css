@@ -1,5 +1,5 @@
 body {
-  font-size: 20;
+  font-size: 36pt;
   font-kerning: normal;
   padding: 3ch;
   margin: 0 auto;
@@ -44,12 +44,12 @@ a:hover {
   font-style: italic; 
 }
 
-input[type="text"], input[type="email"], textarea, button {
+input[type="text"], input[type="email"], textarea, button, label span {
   width: 100%;
   border: 1px solid black;
   font-family: sans-serif;
   padding: .5ch;
-  font-size: 18
+  font-size: 30pt;
 }
 
 /*input[name=church-contact-name], input[name=church-contact-contact] {width: 49.1%}*/
@@ -86,8 +86,6 @@ label span {
   vertical-align: top;
   position: relative;
   top: -1px;
-  font-family: sans-serif;
-  font-size: 18;
   margin-left: .5ch;
 }
 
@@ -107,5 +105,8 @@ button:hover {font-style:italic}
   body {
     max-width: 45ch;
     font-size: 22;
+  }
+  input[type="text"], input[type="email"], textarea, button, label span {
+    font-size: 18pt;
   }
 }
