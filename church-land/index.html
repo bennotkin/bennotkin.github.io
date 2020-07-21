@@ -4,7 +4,40 @@
     <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
     <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
     <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
-    <script type="application/javascript">
+  </head>
+  <body>
+    <div class="topbox"></div>
+    <div class="botbox"></div>
+    <div class="midbox">
+    <h2 class="sc">Know of a church developing its land?</h2>
+      <p>Sometimes churches have land, and sometimes churches choose to start using that land differently.</p>
+      <p>I'm reseaching how churches go about the process of developing their land for new use so I can put together resources for churches looking to develop in the future. Email <a href="mailto:notkin@gsd.harvard.edu">Ben Notkin</a> to talk more about it.</p>
+      <form name="submit-to-google-sheet">
+        <input type="checkbox" id="providing" name="providing">
+        <label for="providing">I want to tell you about a church</label><br>
+        <input type="checkbox" id="wanting" name="wanting">
+        <label for="wanting">I want to receive materials about church development when you make them.</label><br>
+        <div class="providing">
+         <h2 class="sc">What's the church?</h2>
+          <input name="church_name" class="providing" type="text" placeholder="Name of the church">
+          <h2 class="sc">What city is it in</h2>
+          <input class="nosubmit providing" type="text" name="church_city" placeholder="City, State">
+        </div>
+        <div class="providing wanting">
+          <h2 class="sc">Who are you? <span="wanting">(Optional)</span></h2>
+          <input class="nosubmit" type="text" name="user_name" placeholder="Your name">
+          <input class="nosubmit wanting" type="email" name="user_email" placeholder="Your email">
+        </div>
+        <div class="providing">
+        <h2 class="sc">Who else could I talk to about it? <span class="wanting">(Optional)</span></h2>
+        <input class="nosubmit" type="text" name="contact_name" placeholder="Contact name">
+        <input class="nosubmit" type="text" name="contact_contact" placeholder="Contact email or phone">
+        <h2 class="sc">Anything to say about it? (optional)</h2>
+        <textarea id="church-description" name="description" placeholder="What do you find interesting about the project? Who was involved? What was built? What were the goals? etc." rows=4></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+          <script type="application/javascript">
       var providingBox = document.querySelector('input[name="providing"]');
       var providingInput = document.querySelector('input[class="providing"]');
 
@@ -38,34 +71,7 @@
       wantingBox.addEventListener('change',wantingToggleRequired,false);
 
     </script>
-  </head>
-  <body>
-    <div class="topbox"></div>
-    <div class="botbox"></div>
-    <div class="midbox">
-    <h2 class="sc">Know of a church developing its land?</h2>
-      <p>Sometimes churches have land, and sometimes churches choose to start using that land differently.</p>
-      <p>I'm reseaching how churches go about the process of developing their land for new use so I can put together resources for churches looking to develop in the future. Email <a href="mailto:notkin@gsd.harvard.edu">Ben Notkin</a> to talk more about it.</p>
-      <form name="submit-to-google-sheet">
-        <input type="checkbox" id="providing" name="providing">
-        <label for="providing">I want to tell you about a church</label><br>
-        <input type="checkbox" id="wanting" name="wanting">
-        <label for="wanting">I want to receive materials about church development when you make them.</label><br>
-        <h2 class="sc">What's the church?</h2>
-        <input name="church_name" class="providing" type="text" placeholder="Name of the church">
-        <h2 class="sc">What city is it in</h2>
-        <input class="nosubmit providing" type="text" name="church_city" placeholder="City, State">
-        <h2 class="sc">Who are you? (Optional)</h2>
-        <input class="nosubmit" type="text" name="user_name" placeholder="Your name">
-        <input class="nosubmit wanting" type="email" name="user_email" placeholder="Your email"> 
-        <h2 class="sc">Who else could I talk to about it? (Optional)</h2>
-        <input class="nosubmit" type="text" name="contact_name" placeholder="Contact name">
-        <input class="nosubmit" type="text" name="contact_contact" placeholder="Contact email or phone">
-        <h2 class="sc">Anything to say about it? (optional)</h2>
-        <textarea id="church-description" name="description" placeholder="What do you find interesting about the project? Who was involved? What was built? What were the goals? etc." rows=4></textarea>
-        <button type="submit">Send</button>
-      </form>
-          <script type="application/javascript">
+    <script type="application/javascript">
       const scriptURL = 'https://script.google.com/macros/s/AKfycbyr6HydOtGeP_Db3Ofss-ZGKBWZ1dDcyN7Gjx7F0fBquf93HkY/exec'
       const form = document.forms['submit-to-google-sheet']
 
