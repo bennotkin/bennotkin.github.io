@@ -1,5 +1,5 @@
 body {
-  font-size: 36pt;
+  font-size: 36px;
   font-kerning: normal;
   padding: 3ch;
   margin: 0 auto;
@@ -46,7 +46,7 @@ a:hover {
 
 input[type="text"], input[type="email"], textarea, button, label span {
   font-family: sans-serif;  
-  font-size: 30pt;
+  font-size: 30px;
 }
 
 input[type="text"], input[type="email"], textarea, button {
@@ -96,6 +96,8 @@ button:hover {font-style:italic}
 
 .disclaimer {font-family: sans-serif; font-size: .7em;}
 
+p.disclaimer + p.disclaimer {margin: .6em 0;}
+
 .midbox {*/
   grid-row: 2/2;
   align-self: center;
@@ -110,6 +112,6 @@ button:hover {font-style:italic}
     font-size: 22;
   }
   input[type="text"], input[type="email"], textarea, button, label span {
-    font-size: 18pt;
+    font-size: 18px;
   }
 }
