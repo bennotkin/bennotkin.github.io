@@ -57,6 +57,12 @@ input, textarea, button {
 
 input + input {margin-top: 1em}
 
+div.wanting {display: none}
+input[name="wanting"]:checked ~ div.wanting {display: block}
+
+div.providing {display: none}
+input[name="providing"] ~ div.providing {display: block}
+
 button[type=submit] {
   background-color: white;
   border: 1px solid black;
