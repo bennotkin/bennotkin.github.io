@@ -6,6 +6,7 @@ body {
   display: grid;
   grid-template-rows: 1em auto 2em;
   height: 90vh;
+  background-color: lightblue;
 }
 
 p {
