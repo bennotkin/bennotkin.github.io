@@ -45,7 +45,7 @@ a:hover {
   font-style: italic; 
 }
 
-input[type="text"], textarea, button {
+input[type="text"], input[type="email"], textarea, button {
   width: 100%;
   border: 1px solid black;
   font-family: sans-serif;
@@ -57,12 +57,12 @@ input[type="text"], textarea, button {
 
 input + input {margin-top: 1em}
 
-div.providing {display: none}
+/* div.providing {display: none}
 div.wanting {display: none}
 
-input[name="providing"] ~ div.providing {display: block}
+input[name="providing"]:checked ~ div.providing {display: block}
 input[name="wanting"]:checked ~ div.wanting {display: block}
-
+*/
 button[type=submit] {
   background-color: white;
   border: 1px solid black;
