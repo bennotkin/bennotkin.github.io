@@ -6,7 +6,6 @@ body {
   display: grid;
   grid-template-rows: 1em auto 2em;
   height: 90vh;
-  max-width: 45ch;
 }
 
 p {
