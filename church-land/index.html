@@ -1,9 +1,6 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="/css/churchlandstyle.css">
-    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
-    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
-    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
   </head>
   <body>
     <div class="topbox"></div>
@@ -35,6 +32,13 @@
         <label><input type="checkbox" id="wanting" name="wanting"><span>I'm interested in receiving the materials developed through this project. (Please be sure to include your email address above.)</span></label>
         <button type="submit">Send</button>
       </form>
+      <p class="disclaimer">If you are not soon directed to a new page after submitting, please send your response via <a href="mailto:notking@gsd.harvard.edu">email</a>.</p>
+      <p class="disclaimer">Interested in learning more about this project? Write to <a href="mailto:notkin@gsd.harvard.edu">Ben Notkin</a>.</p>
+      <p class="disclaimer">Research is funded by Harvard University.</p>
+    </div>
+    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
           <!-- SCRIPT TO TOGGLE REQUIRED FOR FIELDS BASED ON CHECKBOXES, BUT CURRENTLY NOT WORKING<script type="application/javascript">
       var providingBox = document.querySelector('input[name="providing"]');
       var providingInput = document.querySelector('input[class="providing"]');
@@ -80,8 +84,4 @@
           .catch(error => { console.error('Error!', error.message)} )
       })
     </script>
-      <p class="disclaimer">If you are not soon directed to a new page after submitting, please send your response via <a href="mailto:notking@gsd.harvard.edu">email</a>.</p>
-      <p class="disclaimer">Interested in learning more about this project? Write to <a href="mailto:notkin@gsd.harvard.edu">Ben Notkin</a>.</p>
-      <p class="disclaimer">Research is funded by Harvard University.</p>
-    </div>
   </body>
