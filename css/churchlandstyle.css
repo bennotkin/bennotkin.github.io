@@ -1,12 +1,11 @@
 body {
-/*  font-size: 36px; */
+  font-size: 36px;
   font-kerning: normal;
   padding: 3ch;
   margin: 0 auto;
   display: grid;
   grid-template-rows: 1em auto 2em;
   height: 90vh;
-  background-color: lightblue;
 }
 
 p {
