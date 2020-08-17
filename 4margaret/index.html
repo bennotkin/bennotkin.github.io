@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>Illy maps ⟶ interactive</title>
+    <style type="text/css">
+        body {
+          font-size: 36;
+          font-kerning: normal;
+          padding: 3ch;
+          margin: auto;
+          margin-top: 5vh;
+          height: 90vh
+        }
+
+        p {
+          line-height: 1.2;
+          margin: .3em 0
+        }
+
+        .mapbox {
+            position: relative;
+        }
+
+        .outline, .fill {
+            position: absolute;
+        }
+
+        input[type=checkbox] ~ img.fill {display:none;}
+        input[type=checkbox]:checked ~ img.fill {display:inline;}
+
+
+        @media screen and (min-aspect-ratiO: 5/6) {
+          body {
+            max-width: 45ch;
+            font-size: 24;
+          }
+        }
+      </style>
+  </head>
+  <body>
+    <p>—<em>Hello Margaret!</em> I don't know how well this will work – so let's try it out?.</p>
+    <p>—I made some "maps" of "Washington" state.</p>
+    <p>—Rui's method is probably better, as is Javascript – but I don't know either of those.</p>
+    <p>—This method has some problems for sure – like potentially limiting where the checkboxes can go.</p>
+    <div class="mapbox">
+        <input type="checkbox" id="cb1"/><label for="cb1">Click to show fill</label><br>
+        <img class="map outline" src="wa4mh1-01.svg">
+        <img class="map fill" src="wa4mh2-01.svg">
+    </div>
+  </body>
+</html>
