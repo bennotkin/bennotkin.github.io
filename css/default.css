@@ -46,6 +46,13 @@ h2 {font-weight: 400;
     font-style: italic;
 }
 
+.sc {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .75em;
+    letter-spacing: 0.1ch
+}
+
 /*editing the blog index*/
 
 div.postbox {
