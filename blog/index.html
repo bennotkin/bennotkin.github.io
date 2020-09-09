@@ -5,7 +5,7 @@ title: Ben's Weblog
 <div class="container">
           {% for post in site.posts %}
          <div class="postbox {{ post.length }}">
-             {% if post.length == "long"}
+             {% if post.length == "long" %}
                <h2>{{ post.title }}</h2>
              {% endif %}
              {{ post.content }}
