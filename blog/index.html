@@ -4,7 +4,10 @@ title: Ben's Weblog
 ---
 <div class="container">
     {% for post in site.posts %}
+      <div class="postbox {{post.type}}">
+          {% if post.type == "long"}
             <h2>{{ post.title }}</h2>
+          {% endif %}
           {{ post.content }}
       </div>
     {% endfor %}
