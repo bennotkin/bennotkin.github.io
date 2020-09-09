@@ -6,7 +6,10 @@ title: Ben's web-log
 <div class="roll">
 
     {% for post in site.posts %}
-      <div class="post">
+      <div class="postbox {{post.type}}">
+          {% if post.type == "long"}
+            <h2>{{ post.title }}</h2>
+          {% endif %}
           {{ post.content }}
       </div>
     {% endfor %}
