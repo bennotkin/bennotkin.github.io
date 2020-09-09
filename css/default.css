@@ -77,6 +77,16 @@ div.postbox + div.postbox {
     padding: 2ch;
 }
 
+div.long + div.postbox {
+    border: 0;
+}
+
+div.long + div.long {
+    border: 1px solid;
+    margin-top: 2ch;
+    
+}
+
 /*editing the posts themselves*/
 
 /*Taken from indexicalstyle.css*/
