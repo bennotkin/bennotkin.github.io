@@ -7,8 +7,8 @@ title: Ben's web-log
 
     {% for post in site.posts %}
       <div class="post">
-          <p class="date">{{ post.date | date_to_string }}</p>
-          <p><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
+    <!--      <p class="date">{{ post.date | date_to_string }}</p>
+          <p><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p> -->
           {{ page.content }}
           </div>
     {% endfor %}
