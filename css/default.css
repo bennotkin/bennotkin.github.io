@@ -20,7 +20,9 @@ div.container {
     grid-column: 2/5;
 }
 
-h2 {font-weight: 400}
+h2 {font-weight: 400;
+    font-size: 1.2em;
+}
 
 .nav a {
     text-decoration: none;
@@ -33,7 +35,6 @@ h2 {font-weight: 400}
 }
 
 .nav h2 {
-    font-size: 1.2em;
     margin: 0;
     padding-bottom: .5em;
 }
@@ -48,12 +49,12 @@ h2 {font-weight: 400}
 /*editing the blog index*/
 
 div.postbox {
-    padding: 2em 2ch
+    padding: 0 2ch;
 }
 
 div.long {
     border: 1px solid;
-    padding: 2em 2ch;
+    padding: 2ch 2ch;
     max-height: 80vh;
     overflow-y: auto;
 }
@@ -73,6 +74,7 @@ img {width: 100%;}
 
 div.postbox + div.postbox {
     border-top: 1px solid;
+    padding: 2ch;
 }
 
 /*editing the posts themselves*/
