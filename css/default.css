@@ -1,20 +1,26 @@
-html {margin: 20px 0px 0px 20px;}
-
 body {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 2em 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(3, auto);
     column-gap: 4ch;
     font-family: serif;
     font-size: 20px;
-    max-width: 100ch;
     margin:auto;
     margin-top: 3em;
+    max-width: 98vw;
 }
 
 div.nav {
     grid-column: 1/1;
 }
+
+div.nav div.mobile {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin-top: calc(90vh - 30ch);
+}
+
+div.nav div.computer {display: none;}
 
 div.container {
     grid-column: 2/5;
@@ -28,10 +34,6 @@ h2 {font-weight: 400;
     text-decoration: none;
     color: inherit;
     border-bottom: none;
-}
-
-.nav a:hover {
-    border-bottom: 0.06em dashed;
 }
 
 .nav h2 {
@@ -113,7 +115,26 @@ a:hover {
   font-style: italic; 
 }
 
+@media screen and (min-width: 800px) {
+    html {margin: 20px 0px 0px 20px;}
+    
+    body {
+        grid-template-columns: repeat(5, 1fr);
+        max-width: 100ch;
 
+    }
+    
+    .nav a:hover {
+        border-bottom: 0.06em dashed;
+    }
+    
+    div.nav div.computer {display: block;}
+    div.nav div.mobile {display: none;}
+
+
+}
+
+    
 /*
 body {
     margin: 60px auto;
