@@ -49,12 +49,14 @@ h2 {font-weight: 400;
 /*editing the blog index*/
 
 div.postbox {
-    padding-top: 0 2ch 2ch 2ch;
+    padding: 2ch;
 }
+
+div.postbox:first-child {
+    padding-top: 0}
 
 div.long {
     border: 1px solid;
-    padding: 2ch 2ch;
     max-height: 80vh;
     overflow-y: auto;
 }
@@ -69,7 +71,6 @@ img {width: 100%;}
 
 div.postbox + div.postbox {
     border-top: 1px solid;
-    padding: 2ch;
 }
 
 div.long + div.postbox {
@@ -82,8 +83,8 @@ div.long + div.long {
 }
 
 div.imagepost {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 /*editing the posts themselves*/
