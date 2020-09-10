@@ -8,7 +8,7 @@ body {
     grid-template-rows: repeat(2, auto);
     column-gap: 4ch;
     font-family: serif;
-    font-size: 4vw;
+    font-size: 5vw;
     font-size: min(4vw, 26px);
     margin:auto;
     margin-top: 3em;
@@ -111,7 +111,7 @@ div.imagepost {
 
 /*Taken from indexicalstyle.css*/
 p {
-  line-height: 1.2;
+  line-height: 1.3;
   margin: .3em 0
 }
 
@@ -142,6 +142,11 @@ a:hover {
     div.long + div.long {
         border: 1px solid;
     }
+    
+    div.long + div.postbox {
+        border: 0;
+    }
+
 }
 
 @media only screen and (orientation: landscape) and (min-width: 900px) {
@@ -151,8 +156,8 @@ a:hover {
         grid-template-columns: repeat(5, 1fr);
         max-width: 100ch;
         font-size: 20px;
-
     }
+    p {line-height: 1.2}
     div.nav {
         grid-column: 1/1;
     }
