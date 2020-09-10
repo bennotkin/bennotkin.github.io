@@ -28,8 +28,15 @@ div.nav {
 
 div.nav div.computer {display: none;}
 
-div.container {
-    grid-column: 1/fourth-line;
+div.nav {
+    grid-column-start: 1;
+    grid-column-end: fourth-line;
+}
+
+div.nav div.mobile {
+    text-align: right; 
+    padding: 2ch;
+}
 
 h2 {font-weight: 400;
     font-size: 1.2em;
