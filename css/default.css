@@ -1,7 +1,7 @@
 ---
 
 ---
-html {margin: 2ch;}
+html {margin: 0 2ch;}
 
 body {
     display: grid;
@@ -16,7 +16,8 @@ body {
 }
 
 div.nav {
-    grid-column: start/end;
+    grid-column-start: 1;
+    grid-column-end: fourth-line;
 }
 
 /*div.nav div.mobile {
@@ -28,8 +29,7 @@ div.nav {
 div.nav div.computer {display: none;}
 
 div.container {
-    grid-column: start/end;
-}
+    grid-column: 1/fourth-line;
 
 h2 {font-weight: 400;
     font-size: 1.2em;
