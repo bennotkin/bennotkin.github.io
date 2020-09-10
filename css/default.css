@@ -9,7 +9,7 @@ body {
     column-gap: 4ch;
     font-family: serif;
     font-size: 5vw;
-    font-size: min(4vw, 26px);
+    font-size: min(4vw, 32px);
     margin:auto;
     margin-top: 3em;
     max-width: 98vw;
