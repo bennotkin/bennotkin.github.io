@@ -78,7 +78,6 @@ div.postbox:first-child {
 div.long {
     border: 2px solid;
     max-height: 80vh;
-    overflow-y: auto;
 }
 
 div.short {
@@ -126,11 +125,13 @@ a:hover {
 }
 
 @media only screen and (orientation: landscape) and (min-device-width: 1000px) {
-  body {
+    body {
     font-size: 22px;
-  }
+    }
     div.long {
-    border: 1px solid;
+        border: 1px solid;
+        max-height: 80vh;
+        overflow-y: auto;
     }
 
     div.postbox + div.postbox {
