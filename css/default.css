@@ -8,8 +8,7 @@ body {
     grid-template-rows: repeat(2, auto);
     column-gap: 4ch;
     font-family: serif;
-    font-size: 5vw;
-    font-size: min(4vw, 32px);
+    font-size: 4.5vw;
     margin:auto;
     margin-top: 3em;
     max-width: 98vw;
@@ -126,13 +125,12 @@ a:hover {
   font-style: italic; 
 }
 
-@media only screen and (orientation: landscape) and (min-width: 700px) {
+@media only screen and (orientation: landscape) and (min-device-width: 1000px) {
   body {
     font-size: 22px;
   }
     div.long {
     border: 1px solid;
-
     }
 
     div.postbox + div.postbox {
@@ -142,11 +140,10 @@ a:hover {
     div.long + div.long {
         border: 1px solid;
     }
-    
+
     div.long + div.postbox {
         border: 0;
     }
-
 }
 
 @media only screen and (orientation: landscape) and (min-width: 900px) {
