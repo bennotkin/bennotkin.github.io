@@ -34,7 +34,7 @@ div.container {
 
 div.nav div.mobile {
     text-align: right; 
-    padding: 2ch;
+    padding: 1ch;
 }
 
 h2 {font-weight: 400;
@@ -50,6 +50,11 @@ h2 {font-weight: 400;
 .nav h2 {
     margin: 0;
     padding-bottom: .5em;
+}
+
+div.mobile h2 {
+    margin: 0;
+    padding-bottom: 0em;
 }
 
 .nav h2 ~ h2 {
@@ -126,6 +131,7 @@ a:hover {
 @media only screen and (orientation: landscape) and (min-device-width: 1000px) {
     html {
         margin: 0 5ch;
+    }
     body {
         font-size: 22px;
     }
