@@ -106,7 +106,7 @@ div.imagepost {
 
 /*Taken from indexicalstyle.css*/
 p {
-  line-height: 1.2;
+  line-height: /*1.2*/ 1.4;
   margin: .3em 0
 }
 
