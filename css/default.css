@@ -76,6 +76,12 @@ div.short {
     
 }
 
+div.foot {
+    font-family: sans-serif;
+    font-size: 0.75em;
+    margin-top: 6em;
+}
+
 img {width: 100%;}
 
 div.postbox + div.postbox {
