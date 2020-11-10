@@ -7,8 +7,27 @@ ul.task-list{list-style: none;}
      
 /* FONTS */
 @font-face {
-    font-family: "gangster";
-    src: url(http://bennotkin.github.io/webfontkit-20201028-223227/gangstergrotesk-regular-webfont.woff)
+    font-family: 'gangster';
+    src: url('/webfontkit-20201028-223227/gangstergrotesk-bold-webfont.woff2') format('woff2'),
+         url('/webfontkit-20201028-223227/gangstergrotesk-bold-webfont.woff') format('woff');
+    font-weight: bold 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gangster';
+    src: url('/webfontkit-20201028-223227/gangstergrotesk-light-webfont.woff2') format('woff2'),
+         url('/webfontkit-20201028-223227/gangstergrotesk-light-webfont.woff') format('woff');
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gangster';
+    src: url('/webfontkit-20201028-223227/gangstergrotesk-regular-webfont.woff2') format('woff2'),
+         url('/webfontkit-20201028-223227/gangstergrotesk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
