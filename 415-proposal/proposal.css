@@ -445,6 +445,8 @@ div.fodder {display: none}
             grid-template-columns: 4vw auto 4vw;
 
     }
+    
+    .main > figure > img {margin: auto;}
 /*
  .intro {padding: 1ch; font-size: 1em; }
     div.definitions div:nth-of-type(even) {background-color: cornsilk; margin-left: -1ch; margin-right: -1ch; padding: 0.25em 1ch }
