@@ -78,10 +78,23 @@ pandoc "/Users/bennotkin/Documents/415/Development Proposal/415-proposal/index.m
 <h3>First, what are your thoughts?</h3>
 <p>Any design should begin by asking people questions</p>
 <h4 id="what-are-the-benefits-of-being-in-south-lake-union-for-the-church-and-for-anyone-or-any-group">What are the benefits of being in South Lake Union, for the church and for anyone or any group?</h4>
+<form name="submit-to-google-sheet">
 <textarea name="benefits-input" placeholder="List some benefits of being in SLU, not only for Union, but for anyone or any group. (Textbox is currently inactive.)" rows=4></textarea>
 <button type="submit">
 Add your anonymous response the conversation
 </button>
+</form>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzLLJbeY3jXVAbWuOpD-N7yrDBdqkp8x69jvTDN0Q/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
 </section>
 <section id="what-are-the-challenges-of-being-in-slu" class="interactive">
 <h3>What are the challenges of being in SLU?</h3>
@@ -103,7 +116,7 @@ Add your anonymous response the conversation
 <h3 id="participation-is-important">Participation is important</h3>
 <p>A project performs better and is more just when people who are affected by it are involved in the design process.</p>
 <p>Many questions, like those above, need to be asked and need to be asked of a wide audience. Engagement is important for reasons of both equity and practicality. More participation allows for broader community support. This support is important throughout the process. It also means the project will better serve the people it affects.</p>
-<p>See <a href="#proposal-7">participation</a> and <a href="#questions">questions</a> to ask.</p>
+<p>See <a href="#proposal-7">participation</a> and <a href="#questions">questions to ask</a>.</p>
 </section>
 <section id="conviction-two" class="conviction">
 <h2>Conviction Two</h2>
@@ -161,12 +174,12 @@ Add your anonymous response the conversation
 <p>The Just City Lab provides a framework of community values that can guide a project, as well as other resources.</p>
 </section>
 <figure>
-<img src="images/just-city.svg" alt="Just City Index" /><figcaption aria-hidden="true">Just City Index</figcaption>
+<img src="images/just-city.png" alt="Just City Index" /><figcaption aria-hidden="true">Just City Index</figcaption>
 </figure>
 </section>
 <div class="proposal">
 <figure>
-<img src="images/proposal-cover.svg" alt="proposal-cover" /><figcaption aria-hidden="true">proposal-cover</figcaption>
+<img src="images/proposal-cover.png" alt="proposal-cover" /><figcaption aria-hidden="true">proposal-cover</figcaption>
 </figure>
 <h3 id="proposal">Proposal</h3>
 <p>Affordable housing with institutional partnerships, a non-profit hub, and cooperatively owned ground floor retail.</p>
@@ -183,15 +196,13 @@ Add your anonymous response the conversation
 <section id="proposal-2" class="proposal">
 <h2>Proposal</h2>
 <h3 id="housing-is-important-but-insufficient">Housing is important but insufficient</h3>
-<h4 id="south-lake-union-is-increasingly-residential-but-is-still-primarily-a-working-district">South Lake Union is increasingly residential, but is still primarily a working district*</h4>
+<h4 id="south-lake-union-is-increasingly-residential-but-is-still-primarily-a-working-district">South Lake Union is increasingly residential, but is still primarily a working district</h4>
 <p>The main benefits of South Lake Union are its central location in the city, the proximity to powerful players (and their workers) in tech, medicine and research, and, for landowners, the rising land value.</p>
 <p>Union can more maximally share access to these benefits than by simply providing affordable housing. While residents can take advantage of South Lake Union’s merits, non-profits and businesses are more poised to gain from the neighborhood’s locational strengths.</p>
 <p>Regarding housing, Union can share access to the rising land value by giving occupants shares of equity.</p>
-<ul>
-<li>One advantage of South Lake Union being not-quite-residential is that this project gets to help set the tone for what kind of residential neighborhood it is and for whom.</li>
-</ul>
+<p>One advantage of South Lake Union being not-quite-residential is that this project gets to help set the tone for what kind of residential neighborhood it is and for whom.</p>
 </section>
-<section id="proposal-3" class="proposal">
+<section id="proposal-3" class="proposal lo-image-wide-top">
 <h2>Proposal</h2>
 <h3 id="partnering-with-other-organizations-harnesses-other-sources-of-funding-and-support">Partnering with other organizations harnesses other sources of funding and support</h3>
 <p>By developing a coalition of non-profit and pro-public partners, Union grows the mission of the project. The partner organizations bring their talents, experience, resources and networks.</p>
@@ -200,13 +211,13 @@ Add your anonymous response the conversation
 <img src="images/partnering.svg" alt="Center of mass diagram" /><figcaption aria-hidden="true">Center of mass diagram</figcaption>
 </figure>
 </section>
-<section id="proposal-4" class="proposal floors">
-<h2>Proposal</h2>
-<h3 id="ground-floor">Ground Floor</h3>
+<div class="proposal subtitle-card">
+<h2 id="proposal-4">Proposal</h2>
+<h1 id="ground-floor">Ground Floor</h1>
 <figure>
 <img src="images/section-line-ground.svg" alt="Ground floor" /><figcaption aria-hidden="true">Ground floor</figcaption>
 </figure>
-</section>
+</div>
 <section id="proposal-ground-floor" class="proposal">
 <h2>Proposal: Ground Floor</h2>
 <h3 id="take-advantage-of-the-long-street-front">Take advantage of the long street front</h3>
@@ -251,14 +262,14 @@ Add your anonymous response the conversation
 <li>Uses security deposits and last months rent as share payments, keeping shares affordable for building occupants</li>
 </ul>
 </section>
-<section id="proposal-5" class="floors">
-<h2>Proposal</h2>
-<h3 id="venue-floor">Venue Floor</h3>
+<div class="subtitle-card">
+<h2 id="proposal-5">Proposal</h2>
+<h1 id="venue-floor">Venue Floor</h1>
 <figure>
 <img src="images/section-line-venue.svg" alt="Ground floor" /><figcaption aria-hidden="true">Ground floor</figcaption>
 </figure>
-</section>
-<section id="proposal-venue-floor" class="proposal lo-image-wide-top">
+</div>
+<section id="proposal-venue-floor" class="proposal lo-image-right">
 <h2>Proposal: Venue Floor</h2>
 <h3 id="venue-space-can-focus-on-public-events.">Venue space can focus on public events.</h3>
 <p>In the past, Union has relied on renting out the venue to make rent and mortgage payments. If Union is debt-free after development, the venue can focus on more non-profit and pro-public events.</p>
@@ -282,13 +293,13 @@ Add your anonymous response the conversation
 <p>Instead of a through-block connection, or a street-facing patio, the venue can have its own outdoor space with sky above.</p>
 <p>As designed in Weber Thompson’s massing study, this deck space is already required by zoning. Unlike a through-block connection or a patio, this space can be totally private – though Union could let the public use it when no events are taking place. The deck could also be used by the cafe or other retail.</p>
 </section>
-<section id="proposal-6" class="proposal floors">
-<h2>Proposal</h2>
-<h3 id="offices">Offices</h3>
+<div class="proposal subtitle-card">
+<h2 id="proposal-6">Proposal</h2>
+<h1 id="offices">Offices</h1>
 <figure>
 <img src="images/section-line-office.svg" alt="Ground floor" /><figcaption aria-hidden="true">Ground floor</figcaption>
 </figure>
-</section>
+</div>
 <section id="proposal-offices" class="proposal">
 <h2>Proposal: Offices</h2>
 <h3 id="a-non-profit-hub-brings-otherwise-excluded-organizations-together-and-into-slu">A non-profit hub brings otherwise excluded organizations together and into SLU</h3>
@@ -300,13 +311,13 @@ Add your anonymous response the conversation
 <h3 id="non-profit-co-working">Non-profit co-working</h3>
 <p>Other organizations are too small to join the development process but would still benefit from being in South Lake Union. Some of the offices could be co-working space exclusively for non-profits.</p>
 </section>
-<section id="proposal-7" class="proposal floors">
-<h2>Proposal</h2>
-<h3 id="housing">Housing</h3>
+<div class="proposal subtitle-card">
+<h2 id="proposal-7">Proposal</h2>
+<h1 id="housing">Housing</h1>
 <figure>
 <img src="images/section-line-housing.svg" alt="Ground floor" /><figcaption aria-hidden="true">Ground floor</figcaption>
 </figure>
-</section>
+</div>
 <section id="proposal-housing" class="proposal">
 <h2>Proposal: Housing</h2>
 <h3 id="partner-with-other-institutions">Partner with other institutions</h3>
@@ -332,12 +343,27 @@ Add your anonymous response the conversation
 <img src="https://whatcomwebsite-inflightstudio.netdna-ssl.com/wp-content/uploads/sites/15/2018/11/Exterior-View-Looking-Southwest-Rendering_smaller.jpg" alt="Othello Square Limited Equity Cooperative" /><figcaption aria-hidden="true">Othello Square Limited Equity Cooperative</figcaption>
 </figure>
 </section>
-<section id="proposal-housing-2" class="proposal">
+<section id="proposal-housing-2" class="proposal lo-wide-image-top">
 <h2>Proposal: Housing</h2>
 <h3 id="make-housing-cheaper-and-more-relational-with-co-housing">Make housing cheaper and more relational with co-housing</h3>
 <p>More of residential life is moved into common spaces, increasing interactions between residents and keeping construction and rent costs down.</p>
-<p>Co-housing is an increasingly popular model for commercial developments, because it reduces construction costs and enables developers to build more units in less space. In these models, the premise of <em>community</em> is largely a conceit to increase profits, and isn’t supported with meaningful programming.</p>
-<p>When co-housing is supported, however, it is a way of reducing costs for renters while also providing social connections that can be difficult to achieve, especially when living alone in a new city. In the corporate model, the programming that does exist is often exclusively for residents. More successful models, though, connect residents with life beyond the building, by inviting non-residents in. Union, with its programming as a church, as a cafe, and as a venue, already provides some of this.</p>
+<p>Co-housing is an increasingly popular model for commercial developments, because it reduces construction costs and enables developers to build more units in less space.</p>
+<figure>
+<img src="images/kalkbreite.jpg" alt="Kalkbreite Co-operative" /><figcaption aria-hidden="true">Kalkbreite Co-operative</figcaption>
+</figure>
+<section id="zürich-switzerland" class="image-text">
+<h4>Zürich, Switzerland</h4>
+<p>Built in 2014, the <a href="(https://assemblepapers.com.au/2018/01/25/co-op-city-zurichs-experiment-with-non-profit-housing/)">Kalkbreite Cooperative</a> has 97 affordable housing units, 50,000 square feet of retail, office and studio space, and a publicly accessible raised plaza.</p>
+</section>
+</section>
+<section id="proposal-housing-3" class="proposal lo-image-right">
+<h2>Proposal: Housing</h2>
+<h3 id="connect-residences-to-the-other-activities-in-the-building">Connect residences to the other activities in the building</h3>
+<p>In commercial co-housing models, the premise of <em>community</em> is largely a conceit to increase profits, and isn’t supported with meaningful programming. When co-housing is supported, however, it is a way of reducing costs for renters while also providing social connections that can be difficult to achieve, especially when living alone in a new city.</p>
+<p>In the corporate model, the programming that does exist is often exclusively for residents. More successful models, though, connect residents with life beyond the building, by inviting non-residents in. Union, with its programming as a church, as a cafe, and as a venue, already provides some of this.</p>
+<figure>
+<img src="images/3-levels.svg" alt="Cross-floor interactions" /><figcaption aria-hidden="true">Cross-floor interactions</figcaption>
+</figure>
 </section>
 <section id="proposal-participation" class="proposal">
 <h2>Proposal: Participation</h2>
@@ -345,7 +371,7 @@ Add your anonymous response the conversation
 <p>Community engagement is important for making the project relevant to real needs, for creating a stronger vision, for developing support, and for realizing people’s right to develop their city.</p>
 <p>Access to a city means not only the ability to visit, use or live in the city, but the ability to shape and influence it – to co-design what it <em>should be</em>. This is a rare opportunity anywhere in any city, but especially in South Lake Union, which is owned and designed by some of the world’s wealthiest companies and individuals. This project is a rare chance for individuals – within and beyond Union – to say what they want South Lake Union to be, and work towards making it real.</p>
 <p>As a congregation of people, Union has tremendous opportunity for widespread participation. Union is a diverse body of people from across the city with many different perspectives and assessments of need. This wisdom is invaluable for understanding what this project could or should be. The congregation also connects Union to the broader community, whose input is also generative and important.</p>
-<p>Community engagement also builds community support. A project of this scale often receives public opposition. When the broader community identifies with the project and sees it as in their interest, they are more likely to support the project in the face of opposition. (See <a href="#other-churches-insights">Other Churches’ Insights</a> below.</p>
+<p>Community engagement also builds community support. A project of this scale often receives public opposition. When the broader community identifies with the project and sees it as in their interest, they are more likely to support the project in the face of opposition. (See <a href="#other-churches-insights">other churches’ insights</a> below.)</p>
 <p>Below are a handful of ideas about what participation could look like.</p>
 </section>
 <section id="proposal-participation-1" class="proposal">
@@ -385,7 +411,7 @@ Add your anonymous response the conversation
 <p><a href="https://ecosistemaurbano.com/dreamhamar/">Ecosistema Urbano</a> set up a “pop up office” next to a public space it was designing, where it held workshops, lectures and exhibitions, to generate a list of citizen’s ideas for what the space should be.</p>
 </section>
 <figure>
-<img src="images/temp2.png" alt="Dreamhamar" /><figcaption aria-hidden="true">Dreamhamar</figcaption>
+<img src="images/dreamhamar.jpg" alt="Dreamhamar" /><figcaption aria-hidden="true">Dreamhamar</figcaption>
 </figure>
 </section>
 <section id="proposal-participation-5" class="proposal">
