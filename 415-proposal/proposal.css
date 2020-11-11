@@ -127,15 +127,15 @@ ul strong {font-family: p22-mackinac-pro; font-size: 1.05em;}
 
 .minor p {/*color:darkgrey*/; text-align: center; font-size: 0.8em; margin-top: 10em; display: none;}
 
-.image-text {font-size: 0.8em; line-height: 1; margin: 1em;}
+.image-text {font-size: 0.8em; line-height: 1; margin: 1em 0 ;}
 .image-text h4 {font-size: 1.1em; font-weight: 600; margin: 0;}
 
-.subtitle-card h1 {
+.subtitle-card h3 {
   color: black;
   -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: black;
-/*    font-size: 3em;*/
+    font-size: 3.4em;
 }
 
 /* LAYOUT */
@@ -208,7 +208,7 @@ body {
 .main > * {
 /*    height: max-content;*/
     max-width: 78ch;
-    min-height: 100vh;
+/*    min-height: 100vh;*/
     height: max-content;
     /* padding-left: calc(50vw - 39ch + 2vw);  */
 /*    margin: auto;*/
@@ -221,7 +221,8 @@ body {
 */
     margin-left: -20vw;
     margin-right: -20vw;
-    padding-bottom: 10vh;
+    padding-bottom: 20vh;
+    padding-top: 20vh;
     padding-left: 20vw;
     padding-right: 20vw;
     display: flex;
@@ -270,6 +271,7 @@ img {
     max-width: 100vw;
     width: 100%;
     height: auto;
+/*    max-height: 90vh;*/
 }
 figcaption {display: none;}
 
@@ -281,6 +283,9 @@ figure {
     text-align: center;
     margin: 0;
 }
+
+p + figure {margin-top: 1em;}
+
 .main > figure > img {
     background-color: transparent;
     width: auto;
