@@ -120,6 +120,14 @@ ul strong {font-family: p22-mackinac-pro; font-size: 1.05em;}
 .image-text h4 {font-size: 1.1em; font-weight: 600; margin: 1em 0 0 0;}
 .lo-image-right .image-text > *:first-child:after {content: " ⟶"}
 
+.subtitle-card h1 {
+  color: black;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+/*    font-size: 3em;*/
+}
+
 /* LAYOUT */
 
 /* Hide metadata */
@@ -212,6 +220,18 @@ body {
 /*    background-color: cornsilk;*/
 }
 
+.subtitle-card {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    max-width: none;
+}
+
+/* background colors */
+#worship-assembly, #worship-assembly ~ * {
+/*    background-color: #F1E9D7;*/
+    
+}
+
 /*.main>*:first-child {height: 100vh;}*/
 /*.main > *:nth-child(even) {background-color: cornsilk; }*/
 
@@ -246,13 +266,15 @@ figure {
     max-width: 90vw;/*margin: auto;*/
 }
 
-.floors h2 {display: none;}
-.floors h3 {text-align: center; margin: 2em 0;}
+.subtitle-card h2 {display: none;}
+.subtitle-card h3 {text-align: center; margin: 2em 0;}
 
 /*Right-side image*/
 .lo-image-right, .lo-image-left {
 /*    margin-left: -10vw;*/
 /*    margin-right: -10vw;*/
+    padding-left: 10vw;
+    padding-right: 10vw;
     max-width: 95vw;
     display: grid;
     grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -267,7 +289,7 @@ figure {
 }
 .lo-image-right figure {
     grid-column: 4 / span 3; 
-    grid-row: 1 / span 10;
+    grid-row: 2 / span 10;
 /*    align-self: center;*/
     align-self: flex-start;
     width: 100%
@@ -280,7 +302,7 @@ lo-image-left h2,
 
 .lo-image-left figure {
     grid-column: 1 / span 4; 
-    grid-row: 1 / span 10;
+    grid-row: 2 / span 10;
     align-self: center;
     width: 100%
 } 
@@ -365,10 +387,20 @@ input[type="text"], input[type="email"], textarea, button, label span {
 }
 
 input[type="text"], input[type="email"], textarea, button {
-/*  width: 100%;*/
-  border: 1px solid black;
-  padding: .5ch;
+    width: 100%;
+    border: 1px solid black;
+    padding: .5ch;
+/*    these make the boxes actually 100%, not 100%+ */
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
 }
+
+/* apple rounds the corners in ios safari unless i do this*/
+input {
+  border-radius: 0;
+}
+
 
 /*input + p {background-color: cornsilk}*/
 
@@ -390,17 +422,18 @@ label input {
 }
 
 .nav > p, .nav > label {text-align: end; margin: 0;}
-.nav > label {font-size: 1.2em;}
+.nav > label {font-size: 2em;}
 
 #toc-expander ~ ol, #toc-expander ~ ul, #toc-expander ~ span  {display:none;}
 #toc-expander:checked ~ ul, #toc-expander:checked ~ ol {display:block; float:left; position: relative;}
 input[type=checkbox] {display:none;}
 
-.nav ul, .nav ol {
+.nav > ul, .nav > ol {
     font-size: 0.9em;
-    background-color: rgba(255,255,255,0.7)}
+    background-color: rgba(255,255,255,0.7)
+}
 
-.nav ul ul, .nav ol ol {font-size: 1em;}
+/*.nav ul ul, .nav ol ol {font-size: 1em;}*/
 
 .nav a {border-bottom: none;}
 
@@ -447,6 +480,7 @@ div.fodder {display: none}
     }
     
     .main > figure > img {margin: auto;}
+
 /*
  .intro {padding: 1ch; font-size: 1em; }
     div.definitions div:nth-of-type(even) {background-color: cornsilk; margin-left: -1ch; margin-right: -1ch; padding: 0.25em 1ch }

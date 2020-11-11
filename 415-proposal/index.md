@@ -77,9 +77,23 @@ Any design should begin by asking people questions
 
 #### What are the benefits of being in South Lake Union, for the church and for anyone or any group?
 
-<textarea name="benefits-input" placeholder="List some benefits of being in SLU, not only for Union, but for anyone or any group. (Textbox is currently inactive.)" rows=4></textarea>
+<form name="submit-to-google-sheet">
+	<textarea name="benefits-input" placeholder="List some benefits of being in SLU, not only for Union, but for anyone or any group. (Textbox is currently inactive.)" rows=4></textarea>
+	<button type="submit">Add your anonymous response the conversation</button>
+</form>
 
-<button type="submit">Add your anonymous response the conversation</button>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzLLJbeY3jXVAbWuOpD-N7yrDBdqkp8x69jvTDN0Q/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
 :::
 
 ::: interactive :::
@@ -105,7 +119,7 @@ A project performs better and is more just when people who are affected by it ar
 
 Many questions, like those above, need to be asked and need to be asked of a wide audience. Engagement is important for reasons of both equity and practicality. More participation allows for broader community support. This support is important throughout the process. It also means the project will better serve the people it affects.
 
-See [participation](#proposal-7) and [questions](#questions) to ask.
+See [participation](#proposal-7) and [questions to ask](#questions).
 :::
 
 
@@ -173,11 +187,11 @@ For a project this size, Union will have to give up control and ownership. Union
 The Just City Lab provides a framework of community values that can guide a project, as well as other resources.
 ::::::
 
-![Just City Index](images/just-city.svg)
+![Just City Index](images/just-city.png)
 :::
 
 ::: proposal :::
-![proposal-cover](images/proposal-cover.svg)
+![proposal-cover](images/proposal-cover.png)
 
 ### Proposal
 Affordable housing with institutional partnerships, a non-profit hub, and cooperatively owned ground floor retail.
@@ -198,7 +212,7 @@ Union has committed to using the land it stewards to provide affordable housing.
 ::: proposal :::
 ## Proposal
 ### Housing is important but insufficient
-#### South Lake Union is increasingly residential, but is still primarily a working district*
+#### South Lake Union is increasingly residential, but is still primarily a working district
 
 The main benefits of South Lake Union are its central location in the city, the proximity to powerful players (and their workers) in tech, medicine and research, and, for landowners, the rising land value.
 
@@ -206,11 +220,10 @@ Union can more maximally share access to these benefits than by simply providing
 
 Regarding housing, Union can share access to the rising land value by giving occupants shares of equity.
 
-
-* One advantage of South Lake Union being not-quite-residential is that this project gets to help set the tone for what kind of residential neighborhood it is and for whom.
+One advantage of South Lake Union being not-quite-residential is that this project gets to help set the tone for what kind of residential neighborhood it is and for whom.
 :::
 
-::: proposal :::
+::: {.proposal .lo-image-wide-top} :::
 ## Proposal
 ### Partnering with other organizations harnesses other sources of funding and support
 By developing a coalition of non-profit and pro-public partners, Union grows the mission of the project. The partner organizations bring their talents, experience, resources and networks.
@@ -220,10 +233,10 @@ Having these groups on board in the development process expands the vision of th
 ![Center of mass diagram](images/partnering.svg)
 :::
 
-::: {.proposal .floors} :::
+::: {.proposal .subtitle-card} :::
 ## Proposal
 
-### Ground Floor
+# Ground Floor
 
 ![Ground floor](images/section-line-ground.svg)
 :::
@@ -285,15 +298,15 @@ Residents know best what kind of retail and services they need. Let residents ow
 - Uses security deposits and last months rent as share payments, keeping shares affordable for building occupants
 :::
 
-::: floors :::
+::: subtitle-card :::
 ## Proposal
 
-### Venue Floor
+# Venue Floor
 
 ![Ground floor](images/section-line-venue.svg)
 :::
 
-::: {.proposal .lo-image-wide-top}
+::: {.proposal .lo-image-right}
 ## Proposal: Venue Floor
 ### Venue space can focus on public events.
 In the past, Union has relied on renting out the venue to make rent and mortgage payments. If Union is debt-free after development, the venue can focus on more non-profit and pro-public events.
@@ -324,10 +337,10 @@ Instead of a through-block connection, or a street-facing patio, the venue can h
 As designed in Weber Thompson's massing study, this deck space is already required by zoning. Unlike a through-block connection or a patio, this space can be totally private – though Union could let the public use it when no events are taking place. The deck could also be used by the cafe or other retail. 
 :::
 
-::: {.proposal .floors} :::
+::: {.proposal .subtitle-card} :::
 ## Proposal
 
-### Offices
+# Offices
 
 ![Ground floor](images/section-line-office.svg)
 :::
@@ -347,10 +360,10 @@ Each of these organizations has its own donor networks and access to funding. By
 Other organizations are too small to join the development process but would still benefit from being in South Lake Union. Some of the offices could be co-working space exclusively for non-profits.
 :::
 
-::: {.proposal .floors} :::
+::: {.proposal .subtitle-card} :::
 ## Proposal
 
-### Housing
+# Housing
 
 ![Ground floor](images/section-line-housing.svg)
 :::
@@ -388,14 +401,30 @@ Union would benefit with more cash up front if another organization intermediate
 ![Othello Square Limited Equity Cooperative](https://whatcomwebsite-inflightstudio.netdna-ssl.com/wp-content/uploads/sites/15/2018/11/Exterior-View-Looking-Southwest-Rendering_smaller.jpg)
 :::
 
-::: proposal :::
+::: {.proposal .lo-wide-image-top} :::
 ## Proposal: Housing
 ### Make housing cheaper and more relational with co-housing
 More of residential life is moved into common spaces, increasing interactions between residents and keeping construction and rent costs down.
 
-Co-housing is an increasingly popular model for commercial developments, because it reduces construction costs and enables developers to build more units in less space. In these models, the premise of _community_ is largely a conceit to increase profits, and isn't supported with meaningful programming.
+Co-housing is an increasingly popular model for commercial developments, because it reduces construction costs and enables developers to build more units in less space.
 
-When co-housing is supported, however, it is a way of reducing costs for renters while also providing social connections that can be difficult to achieve, especially when living alone in a new city. In the corporate model, the programming that does exist is often exclusively for residents. More successful models, though, connect residents with life beyond the building, by inviting non-residents in. Union, with its programming as a church, as a cafe, and as a venue, already provides some of this.
+![Kalkbreite Co-operative](images/kalkbreite.jpg)
+
+::: image-text ::::::
+#### Zürich, Switzerland
+Built in 2014, the [Kalkbreite Cooperative]((https://assemblepapers.com.au/2018/01/25/co-op-city-zurichs-experiment-with-non-profit-housing/)) has 97 affordable housing units, 50,000 square feet of retail, office and studio space, and a publicly accessible raised plaza.
+::::::
+:::
+
+::: {.proposal .lo-wide-image-top} :::
+## Proposal: Housing
+### Connect residences to the other activities in the building
+
+In commercial co-housing models, the premise of _community_ is largely a conceit to increase profits, and isn't supported with meaningful programming. When co-housing is supported, however, it is a way of reducing costs for renters while also providing social connections that can be difficult to achieve, especially when living alone in a new city. 
+
+In the corporate model, the programming that does exist is often exclusively for residents. More successful models, though, connect residents with life beyond the building, by inviting non-residents in. Union, with its programming as a church, as a cafe, and as a venue, already provides some of this.
+
+![Cross-floor interactions](images/3-levels.svg)
 :::
 
 ::: proposal :::
@@ -407,7 +436,7 @@ Access to a city means not only the ability to visit, use or live in the city, b
 
 As a congregation of people, Union has tremendous opportunity for widespread participation. Union is a diverse body of people from across the city with many different perspectives and assessments of need. This wisdom is invaluable for understanding what this project could or should be. The congregation also connects Union to the broader community, whose input is also generative and important.
 
-Community engagement also builds community support. A project of this scale often receives public opposition. When the broader community identifies with the project and sees it as in their interest, they are more likely to support the project in the face of opposition. (See [Other Churches' Insights](#other-churches-insights) below.
+Community engagement also builds community support. A project of this scale often receives public opposition. When the broader community identifies with the project and sees it as in their interest, they are more likely to support the project in the face of opposition. (See [other churches' insights](#other-churches-insights) below.)
 
 Below are a handful of ideas about what participation could look like.
 :::
@@ -457,7 +486,7 @@ These events introduce new concepts and language for Union's project, broadening
 [Ecosistema Urbano](https://ecosistemaurbano.com/dreamhamar/) set up a "pop up office" next to a public space it was designing, where it held workshops, lectures and exhibitions, to generate a list of citizen's ideas for what the space should be.
 ::::::
 
-![Dreamhamar](images/temp2.png)
+![Dreamhamar](images/dreamhamar.jpg)
 :::
 
 ::: proposal :::
