@@ -78,41 +78,91 @@ pandoc "/Users/bennotkin/Documents/415/Development Proposal/415-proposal/index.m
 <h3>First, what are your thoughts?</h3>
 <p>Any design should begin by asking people questions</p>
 <h4 id="what-are-the-benefits-of-being-in-south-lake-union-for-the-church-and-for-anyone-or-any-group">What are the benefits of being in South Lake Union, for the church and for anyone or any group?</h4>
-<form name="submit-to-google-sheet">
-<textarea name="benefits-input" placeholder="List some benefits of being in SLU, not only for Union, but for anyone or any group. (Textbox is currently inactive.)" rows=4></textarea>
+<form name="benefits-input">
+<textarea name="benefits" placeholder="List some benefits of being in SLU, not only for Union, but for anyone or any group." rows=4></textarea>
 <button type="submit">
-Add your anonymous response the conversation
+Add your anonymous response to the conversation
 </button>
 </form>
-<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
-<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
-<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
-<script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzLLJbeY3jXVAbWuOpD-N7yrDBdqkp8x69jvTDN0Q/exec'
-  const form = document.forms['submit-to-google-sheet']
-
-  form.addEventListener('submit', e => {
-    e.preventDefault()
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => console.log('Success!', response))
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
+<!--
+<h4 id="benThanks"></h4>
+    <script>
+      function benefitThanks() {
+        document.getElementById("benThanks").innerHTML = "Submitted!";
+      }
+    </script>
+-->
 </section>
 <section id="what-are-the-challenges-of-being-in-slu" class="interactive">
 <h3>What are the challenges of being in SLU?</h3>
-<textarea name="challenges-input" placeholder="List some challenges of being in SLU, not only for Union, but for anyone or any group. (Textbox is currently inactive.)" rows=4></textarea>
-<button type="submit">
-Add your anonymous response the conversation
+<form name="challenges-input">
+<textarea name="challenges" placeholder="List some challenges of being in SLU, not only for Union, but for anyone or any group." rows=4></textarea>
+<button type="submit"">
+Add your anonymous response to the conversation
 </button>
+</form>
+<!--
+    <h4 id="chalThanks"></h4>
+    <script>
+      function challengeThanks() {
+        document.getElementById("chalThanks").innerHTML = "Submitted!";
+      }
+    </script>
+-->
+    
 </section>
 <section id="who-are-the-projects-potential-users" class="interactive">
 <h3>Who are the projects potential users?</h3>
 <p>A key step in design thinking is to consider the design from the perspective of its users. Who do you consider to be the “users” of the project? Who is affected by it? Some “users” might never actually visit the building and still be affected by it</p>
-<textarea name="challenges-input" placeholder="List some challenges of being in SLU, not only for Union, but for anyone or any group. (Textbox is currently inactive.)" rows=4></textarea>
+<form name="users-input">
+<textarea name="users" placeholder="List some potential users." rows=4></textarea>
 <button type="submit">
-Add your anonymous response the conversation
+Add your anonymous response to the conversation
 </button>
+</form>
+<!--
+    <h4 id="userThanks"></h4>
+    <script>
+      function userThanks() {
+        document.getElementById("userThanks").innerHTML = "Submitted!";
+      }
+    </script>
+-->
+    
+    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+<script type="application/javascript">
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzOpF9awfBP862RpIhl-n3cmZGb_Puz0JJVVV7sx0n4e60XTG70/exec'
+  const form_ben = document.forms['benefits-input']
+
+  form_ben.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form_ben)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script type="application/javascript">
+  const form_chal = document.forms['challenges-input']
+
+  form_chal.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form_chal)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script type="application/javascript">
+  const form_users = document.forms['users-input']
+
+  form_users.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form_users)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
 </section>
 <section id="conviction-one" class="conviction">
 <h2>Conviction One</h2>
@@ -180,11 +230,11 @@ Add your anonymous response the conversation
 <img src="images/just-city.png" alt="Just City Index" /><figcaption aria-hidden="true">Just City Index</figcaption>
 </figure>
 </section>
-<div class="proposal">
+<div class="proposal" id="proposal-cover">
 <figure>
 <img src="images/proposal-cover.png" alt="proposal-cover" /><figcaption aria-hidden="true">proposal-cover</figcaption>
 </figure>
-<h3 id="proposal">Proposal</h3>
+<h1 id="proposal">Proposal</h1>
 <p>Affordable housing with institutional partnerships, a non-profit hub, and cooperatively owned ground floor retail.</p>
 </div>
 <section id="proposal-1" class="proposal">
@@ -359,7 +409,7 @@ Add your anonymous response the conversation
 <p>Built in 2014, the <a href="(https://assemblepapers.com.au/2018/01/25/co-op-city-zurichs-experiment-with-non-profit-housing/)">Kalkbreite Cooperative</a> has 97 affordable housing units, 50,000 square feet of retail, office and studio space, and a publicly accessible raised plaza.</p>
 </section>
 </section>
-<section id="proposal-housing-3" class="proposal lo-image-right">
+<section id="proposal-housing-3" class="proposal lo-wide-image-top">
 <h2>Proposal: Housing</h2>
 <h3 id="connect-residences-to-the-other-activities-in-the-building">Connect residences to the other activities in the building</h3>
 <p>In commercial co-housing models, the premise of <em>community</em> is largely a conceit to increase profits, and isn’t supported with meaningful programming. When co-housing is supported, however, it is a way of reducing costs for renters while also providing social connections that can be difficult to achieve, especially when living alone in a new city.</p>
