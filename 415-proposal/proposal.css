@@ -290,8 +290,8 @@ input[type=checkbox] {display:none;}
 
 /* background colors */
 #worship-assembly, #worship-assembly ~ * {background-color: #F8F5ED;}
-#convictions, #convictions ~ * {background-color: #E1E7EE;}
-#proposal-cover, #proposal-cover ~ * {background-color: #fbe4df;}
+#convictions-link, #convictions-link ~ * {background-color: #E1E7EE;}
+#proposals-link, #proposals-link ~ * {background-color: #fbe4df;}
 
 /*.main>*:first-child {height: 100vh;}*/
 /*.main > *:nth-child(even) {background-color: cornsilk; }*/
