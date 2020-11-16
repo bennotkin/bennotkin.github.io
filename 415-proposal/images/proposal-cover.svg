@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 600 512" style="enable-background:new 0 0 600 512;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:url(#SVGID_1_);}
@@ -21,58 +21,58 @@
 	.st15{display:none;}
 	.st16{display:inline;}
 </style>
-<g id="Layer_1_copy">
+<radialGradient id="SVGID_1_" cx="293.5" cy="74.3333" r="298.3247" gradientTransform="matrix(1 0 0 -6 0 921.5)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#EA989C"/>
+	<stop  offset="0.2239" style="stop-color:#EB9B9F"/>
+	<stop  offset="0.4156" style="stop-color:#EDA6A9"/>
+	<stop  offset="0.5955" style="stop-color:#F0B8BA"/>
+	<stop  offset="0.7681" style="stop-color:#F6D0D2"/>
+	<stop  offset="0.9341" style="stop-color:#FCF0F1"/>
+	<stop  offset="1" style="stop-color:#FFFFFF"/>
+</radialGradient>
+<rect x="6" y="439" class="st0" width="575" height="73"/>
+<radialGradient id="SVGID_2_" cx="312.5" cy="138.3333" r="298.3247" gradientTransform="matrix(1 0 0 -6 0 1241.5)" gradientUnits="userSpaceOnUse">
+	<stop  offset="0" style="stop-color:#EA795B"/>
+	<stop  offset="0.1826" style="stop-color:#EA7C5E"/>
+	<stop  offset="0.339" style="stop-color:#EC8469"/>
+	<stop  offset="0.4858" style="stop-color:#EE937B"/>
+	<stop  offset="0.6267" style="stop-color:#F1A793"/>
+	<stop  offset="0.7634" style="stop-color:#F5C1B4"/>
+	<stop  offset="0.8951" style="stop-color:#FAE1DA"/>
+	<stop  offset="1" style="stop-color:#FFFFFF"/>
+</radialGradient>
+<rect x="25" y="375" class="st1" width="575" height="73"/>
+<g>
+	<rect x="106" y="236" class="st2" width="375" height="148"/>
+</g>
+<g>
 	
-		<radialGradient id="SVGID_1_" cx="293.5" cy="475.5" r="298.3247" gradientTransform="matrix(1 0 0 6 0 -2377.5)" gradientUnits="userSpaceOnUse">
-		<stop  offset="0" style="stop-color:#EA989C"/>
-		<stop  offset="0.2239" style="stop-color:#EB9B9F"/>
-		<stop  offset="0.4156" style="stop-color:#EDA6A9"/>
-		<stop  offset="0.5955" style="stop-color:#F0B8BA"/>
-		<stop  offset="0.7681" style="stop-color:#F6D0D2"/>
-		<stop  offset="0.9341" style="stop-color:#FCF0F1"/>
+		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="356.5" y1="492.982" x2="356.5" y2="22.6982" gradientTransform="matrix(1 0 0 -1 0 514)">
+		<stop  offset="0" style="stop-color:#386294"/>
+		<stop  offset="0.1139" style="stop-color:#3D6697"/>
+		<stop  offset="0.2578" style="stop-color:#4D739F"/>
+		<stop  offset="0.4178" style="stop-color:#6787AD"/>
+		<stop  offset="0.5895" style="stop-color:#8BA3C1"/>
+		<stop  offset="0.7706" style="stop-color:#B9C8DA"/>
+		<stop  offset="0.9569" style="stop-color:#F1F4F7"/>
 		<stop  offset="1" style="stop-color:#FFFFFF"/>
-	</radialGradient>
-	<rect x="6" y="439" class="st0" width="575" height="73"/>
+	</linearGradient>
+	<rect x="213" class="st3" width="287" height="512"/>
+</g>
+<g>
 	
-		<radialGradient id="SVGID_2_" cx="312.5" cy="411.5" r="298.3247" gradientTransform="matrix(1 0 0 6 0 -2057.5)" gradientUnits="userSpaceOnUse">
-		<stop  offset="0" style="stop-color:#EA795B"/>
-		<stop  offset="0.1826" style="stop-color:#EA7C5E"/>
-		<stop  offset="0.339" style="stop-color:#EC8469"/>
-		<stop  offset="0.4858" style="stop-color:#EE937B"/>
-		<stop  offset="0.6267" style="stop-color:#F1A793"/>
-		<stop  offset="0.7634" style="stop-color:#F5C1B4"/>
-		<stop  offset="0.8951" style="stop-color:#FAE1DA"/>
+		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="275" y1="265.6027" x2="275" y2="-11.7913" gradientTransform="matrix(1 0 0 -1 0 514)">
+		<stop  offset="0" style="stop-color:#DFCEA3"/>
+		<stop  offset="0.1815" style="stop-color:#E1D1A8"/>
+		<stop  offset="0.4106" style="stop-color:#E6D9B8"/>
+		<stop  offset="0.6652" style="stop-color:#EFE7D2"/>
+		<stop  offset="0.9365" style="stop-color:#FCFAF6"/>
 		<stop  offset="1" style="stop-color:#FFFFFF"/>
-	</radialGradient>
-	<rect x="25" y="375" class="st1" width="575" height="73"/>
-	<g>
-		<rect x="106" y="236" class="st2" width="375" height="148"/>
-	</g>
-	<g>
-		<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="356.5" y1="21.018" x2="356.5" y2="491.3018">
-			<stop  offset="0" style="stop-color:#386294"/>
-			<stop  offset="0.1139" style="stop-color:#3D6697"/>
-			<stop  offset="0.2578" style="stop-color:#4D739F"/>
-			<stop  offset="0.4178" style="stop-color:#6787AD"/>
-			<stop  offset="0.5895" style="stop-color:#8BA3C1"/>
-			<stop  offset="0.7706" style="stop-color:#B9C8DA"/>
-			<stop  offset="0.9569" style="stop-color:#F1F4F7"/>
-			<stop  offset="1" style="stop-color:#FFFFFF"/>
-		</linearGradient>
-		<rect x="213" y="0" class="st3" width="287" height="512"/>
-	</g>
-	<g>
-		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="275" y1="248.3973" x2="275" y2="525.7913">
-			<stop  offset="0" style="stop-color:#DFCEA3"/>
-			<stop  offset="0.1815" style="stop-color:#E1D1A8"/>
-			<stop  offset="0.4106" style="stop-color:#E6D9B8"/>
-			<stop  offset="0.6652" style="stop-color:#EFE7D2"/>
-			<stop  offset="0.9365" style="stop-color:#FCFAF6"/>
-			<stop  offset="1" style="stop-color:#FFFFFF"/>
-		</linearGradient>
-		<rect x="78" y="236" class="st4" width="394" height="302"/>
-	</g>
-	<rect x="-364.83" y="110.25" class="st5" width="262.92" height="40"/>
+	</linearGradient>
+	<rect x="78" y="236" class="st4" width="394" height="302"/>
+</g>
+<rect x="-364.8" y="110.2" class="st5" width="262.9" height="40"/>
+<g>
 	<g>
 		<defs>
 			<rect id="SVGID_5_" x="-668" y="512" width="539" height="90"/>
@@ -81,34 +81,38 @@
 			<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
 		</clipPath>
 		<g class="st6">
-			<defs>
-				<rect id="SVGID_7_" x="-668" y="512" width="539" height="90"/>
-			</defs>
-			<clipPath id="SVGID_8_">
-				<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
-			</clipPath>
-			<g class="st7">
-				<g>
-					<defs>
-						<rect id="SVGID_9_" x="-677" y="505" width="557" height="98"/>
-					</defs>
-					<clipPath id="SVGID_10_">
-						<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
-					</clipPath>
-					<rect x="-668" y="512" class="st8" width="539" height="90"/>
+			<g>
+				<defs>
+					<rect id="SVGID_7_" x="-668" y="512" width="539" height="90"/>
+				</defs>
+				<clipPath id="SVGID_8_">
+					<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+				</clipPath>
+				<g class="st7">
+					<g>
+						<g>
+							<defs>
+								<rect id="SVGID_9_" x="-677" y="505" width="557" height="98"/>
+							</defs>
+							<clipPath id="SVGID_10_">
+								<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
+							</clipPath>
+							<rect x="-668" y="512" class="st8" width="539" height="90"/>
+						</g>
+					</g>
 				</g>
 			</g>
 		</g>
 	</g>
-	<rect x="-521.79" y="666.75" class="st9" width="481.61" height="77"/>
-	<rect x="-904" y="163" class="st10" width="151" height="40"/>
-	<rect x="-656" y="238" class="st11" width="482" height="155"/>
-	<text transform="matrix(1 0 0 1 189.8328 487.752)" class="st12 st13 st14">cooperative retail</text>
-	<text transform="matrix(1 0 0 1 297.3323 422.752)" class="st12 st13 st14">venue</text>
-	<text transform="matrix(1 0 0 1 126.8171 322.752)" class="st12 st13 st14">non-profit hub</text>
-	<text transform="matrix(1 0 0 1 246.2332 129.752)" class="st12 st13 st14">affordable housing</text>
 </g>
-<g id="Layer_1" class="st15">
+<rect x="-521.8" y="666.8" class="st9" width="481.6" height="77"/>
+<rect x="-904" y="163" class="st10" width="151" height="40"/>
+<rect x="-656" y="238" class="st11" width="482" height="155"/>
+<text transform="matrix(1 0 0 1 189.8328 487.752)" class="st12 st13 st14">cooperative retail</text>
+<text transform="matrix(1 0 0 1 297.3323 422.752)" class="st12 st13 st14">venue</text>
+<text transform="matrix(1 0 0 1 126.8171 322.752)" class="st12 st13 st14">non-profit hub</text>
+<text transform="matrix(1 0 0 1 246.2332 129.752)" class="st12 st13 st14">affordable housing</text>
+<g id="Layer_1_1_" class="st15">
 	<g class="st16">
 		<path d="M486,440v71H113v-71H486 M487,439H112v73h375V439L487,439z"/>
 	</g>
