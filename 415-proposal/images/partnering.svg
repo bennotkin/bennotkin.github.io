@@ -1,375 +1,294 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1480.52 600" style="enable-background:new 0 0 1480.52 600;" xml:space="preserve">
+	 viewBox="0 0 1480.5 600" style="enable-background:new 0 0 1480.5 600;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;}
-	.st1{font-family:'ArialMT';}
-	.st2{font-size:12px;}
-	.st3{font-family:'Wremena';}
-	.st4{fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0,6;}
-	.st5{fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;}
-	.st6{fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0,6.0395;}
-	.st7{fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0,6.0312;}
-	.st8{fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0,5.9636;}
-	.st9{fill:#FFFFFF;}
-	.st10{font-family:'GangsterGrotesk-Regular';}
-	.st11{font-size:24px;}
-	.st12{display:none;}
-	.st13{display:inline;}
-	.st14{fill:none;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
-	.st15{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st1{display:none;enable-background:new    ;}
+	.st2{font-family:'ArialMT';}
+	.st3{font-size:12px;}
+	.st4{font-family:'Wremena';}
+	.st5{fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0,6;}
+	.st6{fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0,6.0395;}
+	.st8{fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0,6.0312;}
+	.st9{fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0,5.9636;}
+	.st10{font-size:12.0004px;}
+	.st11{fill:#FFFFFF;}
+	.st12{font-family:'GangsterGrotesk-Regular';}
+	.st13{font-size:24px;}
+	.st14{display:none;}
+	.st15{display:inline;}
+	.st16{fill:none;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
+	.st17{enable-background:new    ;}
+	.st18{fill:none;stroke:#000000;stroke-miterlimit:10;}
 </style>
 <g id="initial_actors">
-	<g>
-		<path id="SVGID_x5F_1_x5F_" class="st0" d="M1069.52,304l352.5,109.5"/>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 1196.1559 343.3382)" class="st1 st2"> </text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 1199.3397 344.3272)" class="st3 st2">f</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 1203.1215 345.5017)" class="st3 st2">u</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 1209.1378 347.3706)" class="st3 st2">n</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 1215.2687 349.2752)" class="st3 st2">d</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 1221.3422 351.1619)" class="st3 st2">s</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 1225.9261 352.5857)" class="st3 st2"> </text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 1228.9056 353.5115)" class="st3 st2">&amp;</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 1238.0162 356.3416)" class="st3 st2"> </text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 1240.9957 357.2669)" class="st3 st2">o</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 1246.7714 359.0611)" class="st3 st2">w</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 1254.8505 361.5708)" class="st3 st2">n</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 1260.9813 363.4754)" class="st3 st2">s</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 1265.5651 364.8992)" class="st1 st2"> </text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 1268.7489 365.8882)" class="st1 st2"> </text>
-		<text transform="matrix(1 0 0 1 680.5202 0)" class="st1 st2"> </text>
-	</g>
-	<line class="st4" x1="1376.52" y1="232" x2="1068.52" y2="304"/>
+	<path id="SVGID_x5F_1_x5F_" class="st0" d="M1069.5,304L1422,413.5"/>
+	<text transform="matrix(0.955 0.2967 -0.2967 0.955 1196.1558 343.3381)" class="st1 st2 st3"> </text>
+	<text transform="matrix(0.955 0.2967 -0.2967 0.955 1199.3396 344.3271)" class="st1 st4 st3">f</text>
+	<text transform="matrix(0.955 0.2967 -0.2967 0.955 1203.1213 345.5017)" class="st1 st4 st3">u</text>
+	<text transform="matrix(0.955 0.2967 -0.2967 0.955 1209.1377 347.3706)" class="st1 st4 st3">n</text>
+	<text transform="matrix(0.955 0.2967 -0.2967 0.955 1215.2686 349.2751)" class="st1 st4 st3">d</text>
+	<text transform="matrix(0.955 0.2967 -0.2967 0.955 1221.342 351.1619)" class="st1 st4 st3">s</text>
+	<text transform="matrix(0.955 0.2967 -0.2967 0.955 1225.926 352.5857)" class="st1 st4 st3"> </text>
+	<text transform="matrix(0.955 0.2967 -0.2967 0.955 1228.9055 353.5115)" class="st1 st4 st3">&amp;</text>
+	<text transform="matrix(0.955 0.2967 -0.2967 0.955 1238.0164 356.3416)" class="st1 st4 st3"> </text>
+	<text transform="matrix(0.955 0.2967 -0.2967 0.955 1240.9958 357.2668)" class="st1 st4 st3">o</text>
+	<text transform="matrix(0.955 0.2967 -0.2967 0.955 1254.8503 361.5708)" class="st1 st4 st3">n</text>
+	<text transform="matrix(0.955 0.2967 -0.2967 0.955 1260.9812 363.4753)" class="st1 st4 st3">s</text>
+	<text transform="matrix(0.955 0.2967 -0.2967 0.955 1265.5652 364.8992)" class="st1 st2 st3"> </text>
+	<text transform="matrix(0.955 0.2967 -0.2967 0.955 1268.7488 365.8882)" class="st1 st2 st3"> </text>
+	<text transform="matrix(1 0 0 1 680.5202 0)" class="st2 st3"> </text>
+	<line class="st5" x1="1376.5" y1="232" x2="1068.5" y2="304"/>
 	<g>
 		<g>
-			<line class="st5" x1="1068.52" y1="304" x2="1068.52" y2="304"/>
-			<line class="st6" x1="1071.73" y1="298.88" x2="1204.92" y2="86.56"/>
-			<line class="st5" x1="1206.52" y1="84" x2="1206.52" y2="84"/>
+			<line class="st6" x1="1068.5" y1="304" x2="1068.5" y2="304"/>
+			<line class="st7" x1="1071.7" y1="298.9" x2="1204.9" y2="86.6"/>
+			<line class="st6" x1="1206.5" y1="84" x2="1206.5" y2="84"/>
 		</g>
 	</g>
-	<path id="SVGID_x5F_2_x5F_" class="st0" d="M1069.02,303.5l307.5-71.5"/>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1152.8015 284.0189)" class="st1 st2"> </text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1156.0488 283.2637)" class="st3 st2">c</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1161.3668 282.0273)" class="st3 st2">o</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1167.2577 280.6575)" class="st3 st2">o</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1173.1484 279.2878)" class="st3 st2">r</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1177.9406 278.1736)" class="st3 st2">d</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1184.1353 276.7332)" class="st3 st2">i</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1187.3494 275.9858)" class="st3 st2">n</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1193.6024 274.5318)" class="st3 st2">a</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1199.0957 273.2545)" class="st3 st2">t</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1202.6021 272.4393)" class="st3 st2">e</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1208.0953 271.1619)" class="st3 st2">s</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1212.7706 270.0748)" class="st3 st2">,</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1215.6926 269.3954)" class="st3 st2"> </text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1218.7314 268.6888)" class="st3 st2">f</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1222.5884 267.7921)" class="st3 st2">u</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1228.7246 266.3653)" class="st3 st2">n</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1234.9777 264.9112)" class="st3 st2">d</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1241.1725 263.4708)" class="st3 st2">s</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1245.8477 262.3839)" class="st3 st2">,</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1248.7697 261.7044)" class="st3 st2"> </text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1251.8085 260.9977)" class="st3 st2">o</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1257.6993 259.628)" class="st3 st2">w</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1265.9393 257.712)" class="st3 st2">n</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1272.1925 256.2581)" class="st3 st2">s</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1276.8677 255.171)" class="st1 st2"> </text>
-	<text transform="matrix(1 0 0 1 680.5202 0)" class="st1 st2"> </text>
+	<path id="SVGID_x5F_2_x5F_" class="st0" d="M1069,303.5l307.5-71.5"/>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1152.8015 284.0189)" class="st2 st3"> </text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1161.3668 282.0273)" class="st1 st4 st3">o</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1167.2577 280.6574)" class="st1 st4 st3">o</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1173.1484 279.2878)" class="st1 st4 st3">r</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1177.9406 278.1736)" class="st1 st4 st3">d</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1184.1353 276.7331)" class="st1 st4 st3">i</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1187.3494 275.9858)" class="st1 st4 st3">n</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1193.6024 274.5318)" class="st1 st4 st3">a</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1199.0957 273.2545)" class="st1 st4 st3">t</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1202.6021 272.4393)" class="st1 st4 st3">e</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1208.0953 271.1618)" class="st1 st4 st3">s</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1212.7706 270.0748)" class="st1 st4 st3">,</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1215.6926 269.3954)" class="st1 st4 st3"> </text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1218.7314 268.6888)" class="st1 st4 st3">f</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1222.5884 267.7921)" class="st1 st4 st3">u</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1228.7246 266.3653)" class="st1 st4 st3">n</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1234.9777 264.9112)" class="st1 st4 st3">d</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1241.1725 263.4708)" class="st1 st4 st3">s</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1245.8477 262.3839)" class="st1 st4 st3">,</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1248.7697 261.7044)" class="st1 st4 st3"> </text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1251.8085 260.9977)" class="st1 st4 st3">o</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1257.6993 259.628)" class="st1 st4 st3">w</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1265.9393 257.712)" class="st1 st4 st3">n</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1272.1925 256.258)" class="st1 st4 st3">s</text>
+	<text transform="matrix(0.974 -0.2265 0.2265 0.974 1276.8677 255.171)" class="st1 st2 st3"> </text>
+	<text transform="matrix(1 0 0 1 680.5202 0)" class="st2 st3"> </text>
 	<g>
 		<g>
-			<line class="st5" x1="1225.02" y1="554.5" x2="1225.02" y2="554.5"/>
-			<line class="st7" x1="1221.84" y1="549.38" x2="1070.61" y2="306.06"/>
-			<line class="st5" x1="1069.02" y1="303.5" x2="1069.02" y2="303.5"/>
+			<line class="st6" x1="1225" y1="554.5" x2="1225" y2="554.5"/>
+			<line class="st8" x1="1221.8" y1="549.4" x2="1070.6" y2="306.1"/>
+			<line class="st6" x1="1069" y1="303.5" x2="1069" y2="303.5"/>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line class="st5" x1="1422.02" y1="413.5" x2="1422.02" y2="413.5"/>
-			<line class="st8" x1="1416.33" y1="411.73" x2="1071.87" y2="304.39"/>
-			<line class="st5" x1="1069.02" y1="303.5" x2="1069.02" y2="303.5"/>
+			<line class="st6" x1="1422" y1="413.5" x2="1422" y2="413.5"/>
+			<line class="st9" x1="1416.3" y1="411.7" x2="1071.9" y2="304.4"/>
+			<line class="st6" x1="1069" y1="303.5" x2="1069" y2="303.5"/>
 		</g>
 	</g>
-	<path id="SVGID_x5F_3_x5F_" class="st0" d="M1068.52,304l138-220"/>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1114.5764 230.5773)" class="st1 st2"> </text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1116.3479 227.7531)" class="st3 st2">p</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1119.6001 222.5685)" class="st3 st2">e</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1122.5969 217.7912)" class="st3 st2">r</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1125.2112 213.6232)" class="st3 st2">m</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1130.3762 205.3898)" class="st3 st2">i</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1132.1299 202.5939)" class="st3 st2">t</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1134.0427 199.5441)" class="st3 st2">s</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1136.5933 195.4787)" class="st3 st2"> </text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1138.2512 192.8351)" class="st3 st2">&amp;</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1143.3206 184.754)" class="st3 st2"> </text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1144.9785 182.1105)" class="st3 st2">f</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1147.0825 178.756)" class="st3 st2">u</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1150.4302 173.4191)" class="st3 st2">n</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1153.8418 167.9806)" class="st3 st2">d</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1157.2212 162.5929)" class="st3 st2">s</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1159.772 158.5265)" class="st1 st2"> </text>
-	<text transform="matrix(1 0 0 1 680.5202 0)" class="st1 st2"> </text>
-	<path id="SVGID_x5F_4_x5F_" class="st0" d="M1108.02,366.5l101,162"/>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1108.4146 367.1334)" class="st1 st2"> </text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1110.1792 369.9625)" class="st3 st2">r</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1112.7817 374.1373)" class="st3 st2">e</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1115.7651 378.9232)" class="st3 st2">s</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1118.3052 382.9965)" class="st3 st2">e</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1121.2886 387.7823)" class="st3 st2">a</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1124.2729 392.5682)" class="st3 st2">r</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1126.8755 396.7433)" class="st3 st2">c</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1129.7642 401.3763)" class="st3 st2">h</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1133.1284 406.7733)" class="st3 st2">e</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1136.1128 411.5592)" class="st3 st2">s</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1138.6519 415.6324)" class="st3 st2"> </text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1140.3022 418.2799)" class="st3 st2">&amp;</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1145.3501 426.3754)" class="st3 st2"> </text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1147.0005 429.0228)" class="st3 st2">d</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1150.3657 434.4198)" class="st3 st2">e</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1153.3491 439.2057)" class="st3 st2">s</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1155.8882 443.2789)" class="st3 st2">i</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1157.6343 446.0792)" class="st3 st2">g</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1160.7456 451.0687)" class="st3 st2">n</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1164.1421 456.5167)" class="st3 st2">s</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1166.6812 460.5897)" class="st1 st2"> </text>
-	<text transform="matrix(1 0 0 1 680.5202 0)" class="st1 st2"> </text>
+	<path id="SVGID_x5F_3_x5F_" class="st0" d="M1068.5,304l138-220"/>
+	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1114.5764 230.5769)" class="st1 st2 st3"> </text>
+	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1116.3479 227.7527)" class="st1 st4 st3">p</text>
+	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1119.6001 222.5681)" class="st1 st4 st3">e</text>
+	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1122.5969 217.7907)" class="st1 st4 st3">r</text>
+	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1125.2112 213.6228)" class="st1 st4 st3">m</text>
+	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1130.3762 205.3894)" class="st1 st4 st3">i</text>
+	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1132.1299 202.5935)" class="st1 st4 st3">t</text>
+	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1134.0427 199.5437)" class="st1 st4 st3">s</text>
+	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1136.5933 195.4782)" class="st1 st4 st3"> </text>
+	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1138.2512 192.8347)" class="st1 st4 st3">&amp;</text>
+	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1143.3206 184.7536)" class="st1 st4 st3"> </text>
+	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1144.9785 182.1101)" class="st1 st4 st3">f</text>
+	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1147.0825 178.7556)" class="st1 st4 st3">u</text>
+	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 1150.4302 173.4187)" class="st1 st4 st3">n</text>
+	<text transform="matrix(1 0 0 1 680.5202 0)" class="st2 st3"> </text>
+	<path id="SVGID_x5F_4_x5F_" class="st0" d="M1108,366.5l101,162"/>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1113.4142 367.1335)" class="st1 st2 st10"> </text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1115.1794 369.9629)" class="st1 st4 st10">r</text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1117.7811 374.1375)" class="st1 st4 st10">e</text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1120.765 378.9232)" class="st1 st4 st10">s</text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1123.3051 382.9969)" class="st1 st4 st10">e</text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1126.2883 387.7818)" class="st1 st4 st10">a</text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1129.2727 392.5682)" class="st1 st4 st10">r</text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1131.8757 396.7431)" class="st1 st4 st10">c</text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1134.7637 401.3768)" class="st1 st4 st10">h</text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1138.1283 406.7732)" class="st1 st4 st10">e</text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1141.1127 411.5597)" class="st1 st4 st10">s</text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1143.6521 415.6326)" class="st1 st4 st10"> </text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1145.3016 418.28)" class="st1 st4 st10">&amp;</text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1150.3505 426.3757)" class="st1 st4 st10"> </text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1151.9999 429.023)" class="st1 st4 st10">d</text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1155.3658 434.4197)" class="st1 st4 st10">e</text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1158.3489 439.2058)" class="st1 st4 st10">s</text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1160.8883 443.2788)" class="st1 st4 st10">i</text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1162.6342 446.0789)" class="st1 st4 st10">g</text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1165.7456 451.0693)" class="st1 st4 st10">n</text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1169.1423 456.517)" class="st1 st4 st10">s</text>
+	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 1171.6804 460.5897)" class="st1 st2 st10"> </text>
+	<text transform="matrix(1 0 0 1 680.5202 0)" class="st2 st3"> </text>
 	<g>
 		<g>
-			<ellipse class="st9" cx="1068.52" cy="304" rx="48.5" ry="26"/>
+			<ellipse class="st11" cx="1068.5" cy="304" rx="48.5" ry="26"/>
 		</g>
-		<text transform="matrix(1 0 0 1 1036.7209 312.5579)" class="st10 st11">Union</text>
+		<text transform="matrix(1 0 0 1 1036.7209 312.5579)" class="st12 st13">Union</text>
 	</g>
 	<g>
-		<circle class="st9" cx="1206.52" cy="84" r="53"/>
+		<circle class="st11" cx="1206.5" cy="84" r="53"/>
 	</g>
 	<g>
-		<ellipse class="st9" cx="1421.52" cy="414" rx="54" ry="38"/>
+		<ellipse class="st11" cx="1421.5" cy="414" rx="54" ry="38"/>
 	</g>
 	<g>
-		<ellipse class="st9" cx="1224.52" cy="554" rx="64" ry="28"/>
+		<ellipse class="st11" cx="1224.5" cy="554" rx="64" ry="28"/>
 	</g>
-	<text transform="matrix(1 0 0 1 1389.1085 405.9517)" class="st10 st11">LIHTC </text>
-	<text transform="matrix(1 0 0 1 1375.2986 434.7517)" class="st10 st11">Investor</text>
-	<text transform="matrix(1 0 0 1 1171.0847 559.9517)" class="st10 st11">Architect</text>
-	<text transform="matrix(1 0 0 1 1165.4094 83.9517)" class="st10 st11">City of  </text>
-	<text transform="matrix(1 0 0 1 1165.9393 112.7517)" class="st10 st11">Seattle</text>
+	<text transform="matrix(1 0 0 1 1389.1085 405.9517)" class="st12 st13">LIHTC </text>
+	<text transform="matrix(1 0 0 1 1375.2986 434.7517)" class="st12 st13">Investor</text>
+	<text transform="matrix(1 0 0 1 1171.0847 559.9517)" class="st12 st13">Architect</text>
+	<text transform="matrix(1 0 0 1 1165.4094 83.9517)" class="st12 st13">City of  </text>
+	<text transform="matrix(1 0 0 1 1165.9393 112.7517)" class="st12 st13">Seattle</text>
 	<g>
-		<ellipse class="st9" cx="1376.52" cy="232" rx="74" ry="55"/>
+		<ellipse class="st11" cx="1376.5" cy="232" rx="74" ry="55"/>
 	</g>
-	<text transform="matrix(1 0 0 1 1306.8976 224.9517)" class="st10 st11">Aff. Housing </text>
-	<text transform="matrix(1 0 0 1 1319.8475 253.7517)" class="st10 st11">Developer</text>
+	<text transform="matrix(1 0 0 1 1306.8976 224.9517)" class="st12 st13">Aff. Housing </text>
+	<text transform="matrix(1 0 0 1 1319.8475 253.7517)" class="st12 st13">Developer</text>
 </g>
-<g id="initial_center_of_mass" class="st12">
-	<g class="st13">
-		<line class="st14" x1="1252.52" y1="326" x2="1264.52" y2="314"/>
-		<line class="st14" x1="1252.52" y1="314" x2="1264.52" y2="326"/>
+<g id="initial_center_of_mass" class="st14">
+	<g class="st15">
+		<line class="st16" x1="1252.5" y1="326" x2="1264.5" y2="314"/>
+		<line class="st16" x1="1252.5" y1="314" x2="1264.5" y2="326"/>
 	</g>
 </g>
 <g id="Layer_2_1_">
-	<line class="st4" x1="1012.52" y1="548" x2="1069.52" y2="307"/>
-	<line class="st4" x1="813.52" y1="507" x2="1069.52" y2="304"/>
-	<line class="st4" x1="779.52" y1="422" x2="1069.52" y2="304"/>
-	<line class="st4" x1="779.52" y1="313" x2="1069.52" y2="304"/>
-	<line class="st4" x1="794.52" y1="185" x2="1069.52" y2="304"/>
-	<line class="st4" x1="821.52" y1="91" x2="1069.52" y2="304"/>
-	<line class="st4" x1="992.52" y1="66" x2="1069.52" y2="304"/>
+	<line class="st5" x1="1012.5" y1="548" x2="1069.5" y2="307"/>
+	<line class="st5" x1="813.5" y1="507" x2="1069.5" y2="304"/>
+	<line class="st5" x1="779.5" y1="422" x2="1069.5" y2="304"/>
+	<line class="st5" x1="779.5" y1="313" x2="1069.5" y2="304"/>
+	<line class="st5" x1="794.5" y1="185" x2="1069.5" y2="304"/>
+	<line class="st5" x1="821.5" y1="91" x2="1069.5" y2="304"/>
+	<line class="st5" x1="992.5" y1="66" x2="1069.5" y2="304"/>
 	<g>
-		<ellipse class="st9" cx="1012.52" cy="548" rx="105" ry="46"/>
+		<ellipse class="st11" cx="1012.5" cy="548" rx="105" ry="46"/>
 	</g>
 	<g>
-		<ellipse class="st9" cx="813.52" cy="507" rx="88" ry="41"/>
+		<ellipse class="st11" cx="813.5" cy="509.8" rx="88" ry="43.8"/>
 	</g>
 	<g>
-		<ellipse class="st9" cx="779.52" cy="422" rx="86" ry="44"/>
+		<ellipse class="st11" cx="779.5" cy="422" rx="86" ry="44"/>
 	</g>
 	<g>
-		<ellipse class="st9" cx="779.52" cy="313" rx="75" ry="46"/>
+		<ellipse class="st11" cx="779.5" cy="313" rx="75" ry="46"/>
 	</g>
 	<g>
-		<ellipse class="st9" cx="794.52" cy="185" rx="79" ry="47"/>
+		<ellipse class="st11" cx="794.5" cy="185" rx="79" ry="47"/>
 	</g>
 	<g>
-		<circle class="st9" cx="821.52" cy="91" r="25"/>
+		<circle class="st11" cx="821.5" cy="91" r="25"/>
 	</g>
 	<g>
-		<ellipse class="st9" cx="992.52" cy="66" rx="88" ry="43"/>
+		<ellipse class="st11" cx="992.5" cy="66" rx="88" ry="43"/>
 	</g>
-	<text transform="matrix(1 0 0 1 730.8371 176.9517)" class="st10 st11">Community </text>
-	<text transform="matrix(1 0 0 1 733.9071 205.7517)" class="st10 st11">Land Trust</text>
-	<text transform="matrix(1 0 0 1 735.7497 506.9517)" class="st10 st11">Seattle Public </text>
-	<text transform="matrix(1 0 0 1 769.8997 535.7517)" class="st10 st11">Schools</text>
-	<text transform="matrix(1 0 0 1 802.3561 101.9517)" class="st10 st11">UW</text>
-	<text transform="matrix(1 0 0 1 930.1335 540.9517)" class="st10 st11">Non-profit tech </text>
-	<text transform="matrix(1 0 0 1 956.0535 569.7517)" class="st10 st11">co-working</text>
-	<text transform="matrix(1 0 0 1 714.6374 306.9517)" class="st10 st11">NW Natives </text>
-	<text transform="matrix(1 0 0 1 732.8174 335.7517)" class="st10 st11">Museum</text>
-	<text transform="matrix(1 0 0 1 716.8454 413.9517)" class="st10 st11">Ecumenical </text>
-	<text transform="matrix(1 0 0 1 734.4754 442.7517)" class="st10 st11">Housing</text>
-	<text transform="matrix(1 0 0 1 924.9855 54.9517)" class="st10 st11">Immigration </text>
-	<text transform="matrix(1 0 0 1 913.4155 83.7517)" class="st10 st11">Legal Support</text>
+	<text transform="matrix(1 0 0 1 730.8371 176.9517)" class="st12 st13">Community </text>
+	<text transform="matrix(1 0 0 1 733.9071 205.7517)" class="st12 st13">Land Trust</text>
+	<text transform="matrix(1 0 0 1 747.4061 498.8794)" class="st17"><tspan x="0" y="0" class="st12 st13">Healthcare </tspan><tspan x="-18.7" y="28.8" class="st12 st13">Workers Union</tspan></text>
+	<text transform="matrix(1 0 0 1 802.3561 101.9517)" class="st12 st13">UW</text>
+	<text transform="matrix(1 0 0 1 930.1335 540.9517)" class="st12 st13">Non-profit tech </text>
+	<text transform="matrix(1 0 0 1 956.0535 569.7517)" class="st12 st13">co-working</text>
+	<text transform="matrix(1 0 0 1 714.6374 306.9517)" class="st12 st13">NW Natives </text>
+	<text transform="matrix(1 0 0 1 732.8174 335.7517)" class="st12 st13">Museum</text>
+	<text transform="matrix(1 0 0 1 716.8454 413.9517)" class="st12 st13">Ecumenical </text>
+	<text transform="matrix(1 0 0 1 734.4754 442.7517)" class="st12 st13">Housing</text>
+	<text transform="matrix(1 0 0 1 924.9855 54.9517)" class="st12 st13">Immigration </text>
+	<text transform="matrix(1 0 0 1 913.4155 83.7517)" class="st12 st13">Legal Support</text>
 </g>
 <g id="later_center_of_mass">
 	<g>
-		<line class="st14" x1="968.52" y1="313" x2="980.52" y2="301"/>
-		<line class="st14" x1="968.52" y1="301" x2="980.52" y2="313"/>
+		<line class="st16" x1="968.5" y1="313" x2="980.5" y2="301"/>
+		<line class="st16" x1="968.5" y1="301" x2="980.5" y2="313"/>
 	</g>
 	<g>
 		<g>
-			<ellipse class="st9" cx="1068.52" cy="304" rx="48.5" ry="26"/>
+			<ellipse class="st11" cx="1068.5" cy="304" rx="48.5" ry="26"/>
 		</g>
-		<text transform="matrix(1 0 0 1 1036.7209 312.5579)" class="st10 st11">Union</text>
+		<text transform="matrix(1 0 0 1 1036.7209 312.5579)" class="st12 st13">Union</text>
 	</g>
 </g>
 <g id="initial_actors_1_">
 	<g>
-		<path id="SVGID_x5F_1_x5F__1_" class="st0" d="M152.34,304l352.5,109.5"/>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 278.9801 343.3382)" class="st1 st2"> </text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 282.1639 344.3272)" class="st3 st2">f</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 285.9456 345.5017)" class="st3 st2">u</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 291.962 347.3706)" class="st3 st2">n</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 298.0929 349.2752)" class="st3 st2">d</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 304.1664 351.1619)" class="st3 st2">s</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 308.7503 352.5857)" class="st3 st2"> </text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 311.7298 353.5115)" class="st3 st2">&amp;</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 320.8404 356.3416)" class="st3 st2"> </text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 323.8199 357.2669)" class="st3 st2">o</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 329.5956 359.0611)" class="st3 st2">w</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 337.6747 361.5708)" class="st3 st2">n</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 343.8055 363.4754)" class="st3 st2">s</text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 348.3893 364.8992)" class="st1 st2"> </text>
-		<text transform="matrix(0.955 0.2967 -0.2967 0.955 351.5731 365.8882)" class="st1 st2"> </text>
-		<text transform="matrix(1 0 0 1 -236.6557 0)" class="st1 st2"> </text>
+		<path id="SVGID_x5F_1_x5F__1_" class="st0" d="M152.3,304l352.5,109.5"/>
+		<text transform="matrix(1 0 0 1 -236.6557 0)" class="st2 st3"> </text>
 	</g>
-	<line class="st4" x1="459.34" y1="232" x2="151.34" y2="304"/>
+	<line class="st5" x1="459.3" y1="232" x2="151.3" y2="304"/>
 	<g>
 		<g>
-			<line class="st5" x1="151.34" y1="304" x2="151.34" y2="304"/>
-			<line class="st6" x1="154.55" y1="298.88" x2="287.74" y2="86.56"/>
-			<line class="st5" x1="289.34" y1="84" x2="289.34" y2="84"/>
+			<line class="st6" x1="151.3" y1="304" x2="151.3" y2="304"/>
+			<line class="st7" x1="154.6" y1="298.9" x2="287.7" y2="86.6"/>
+			<line class="st6" x1="289.3" y1="84" x2="289.3" y2="84"/>
 		</g>
 	</g>
-	<path id="SVGID_x5F_2_x5F__1_" class="st0" d="M151.84,303.5l307.5-71.5"/>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 235.6257 284.0189)" class="st1 st2"> </text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 238.873 283.2637)" class="st3 st2">c</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 244.1909 282.0273)" class="st3 st2">o</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 250.0818 280.6575)" class="st3 st2">o</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 255.9726 279.2878)" class="st3 st2">r</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 260.7646 278.1736)" class="st3 st2">d</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 266.9594 276.7332)" class="st3 st2">i</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 270.1736 275.9858)" class="st3 st2">n</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 276.4265 274.5318)" class="st3 st2">a</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 281.9199 273.2545)" class="st3 st2">t</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 285.4262 272.4393)" class="st3 st2">e</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 290.9194 271.1619)" class="st3 st2">s</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 295.5947 270.0748)" class="st3 st2">,</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 298.5168 269.3954)" class="st3 st2"> </text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 301.5556 268.6888)" class="st3 st2">f</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 305.4126 267.7921)" class="st3 st2">u</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 311.5488 266.3653)" class="st3 st2">n</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 317.8017 264.9112)" class="st3 st2">d</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 323.9966 263.4708)" class="st3 st2">s</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 328.6718 262.3839)" class="st3 st2">,</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 331.5937 261.7044)" class="st3 st2"> </text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 334.6325 260.9977)" class="st3 st2">o</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 340.5234 259.628)" class="st3 st2">w</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 348.7634 257.712)" class="st3 st2">n</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 355.0166 256.2581)" class="st3 st2">s</text>
-	<text transform="matrix(0.974 -0.2265 0.2265 0.974 359.6919 255.171)" class="st1 st2"> </text>
-	<text transform="matrix(1 0 0 1 -236.6557 0)" class="st1 st2"> </text>
+	<path id="SVGID_x5F_2_x5F__1_" class="st0" d="M151.8,303.5L459.3,232"/>
+	<text transform="matrix(1 0 0 1 -236.6557 0)" class="st2 st3"> </text>
 	<g>
 		<g>
-			<line class="st5" x1="307.84" y1="554.5" x2="307.84" y2="554.5"/>
-			<line class="st7" x1="304.66" y1="549.38" x2="153.43" y2="306.06"/>
-			<line class="st5" x1="151.84" y1="303.5" x2="151.84" y2="303.5"/>
+			<line class="st6" x1="307.8" y1="554.5" x2="307.8" y2="554.5"/>
+			<line class="st8" x1="304.7" y1="549.4" x2="153.4" y2="306.1"/>
+			<line class="st6" x1="151.8" y1="303.5" x2="151.8" y2="303.5"/>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line class="st5" x1="504.84" y1="413.5" x2="504.84" y2="413.5"/>
-			<line class="st8" x1="499.15" y1="411.73" x2="154.69" y2="304.39"/>
-			<line class="st5" x1="151.84" y1="303.5" x2="151.84" y2="303.5"/>
+			<line class="st6" x1="504.8" y1="413.5" x2="504.8" y2="413.5"/>
+			<line class="st9" x1="499.1" y1="411.7" x2="154.7" y2="304.4"/>
+			<line class="st6" x1="151.8" y1="303.5" x2="151.8" y2="303.5"/>
 		</g>
 	</g>
-	<path id="SVGID_x5F_3_x5F__1_" class="st0" d="M151.34,304l138-220"/>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 197.4006 230.5773)" class="st1 st2"> </text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 199.1721 227.7531)" class="st3 st2">p</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 202.424 222.5685)" class="st3 st2">e</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 205.4211 217.7912)" class="st3 st2">r</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 208.0354 213.6232)" class="st3 st2">m</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 213.2004 205.3898)" class="st3 st2">i</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 214.9538 202.5939)" class="st3 st2">t</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 216.8669 199.5441)" class="st3 st2">s</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 219.4172 195.4787)" class="st3 st2"> </text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 221.0754 192.8351)" class="st3 st2">&amp;</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 226.1447 184.754)" class="st3 st2"> </text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 227.8024 182.1105)" class="st3 st2">f</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 229.9064 178.756)" class="st3 st2">u</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 233.2541 173.4191)" class="st3 st2">n</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 236.6657 167.9806)" class="st3 st2">d</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 240.0451 162.5929)" class="st3 st2">s</text>
-	<text transform="matrix(0.5314 -0.8471 0.8471 0.5314 242.5959 158.5265)" class="st1 st2"> </text>
-	<text transform="matrix(1 0 0 1 -236.6557 0)" class="st1 st2"> </text>
-	<path id="SVGID_x5F_4_x5F__1_" class="st0" d="M190.84,366.5l101,162"/>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 191.2388 367.1334)" class="st1 st2"> </text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 193.0034 369.9625)" class="st3 st2">r</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 195.606 374.1373)" class="st3 st2">e</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 198.5894 378.9232)" class="st3 st2">s</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 201.1294 382.9965)" class="st3 st2">e</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 204.1128 387.7823)" class="st3 st2">a</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 207.0972 392.5682)" class="st3 st2">r</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 209.6997 396.7433)" class="st3 st2">c</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 212.5884 401.3763)" class="st3 st2">h</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 215.9527 406.7733)" class="st3 st2">e</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 218.937 411.5592)" class="st3 st2">s</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 221.4761 415.6324)" class="st3 st2"> </text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 223.1265 418.2799)" class="st3 st2">&amp;</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 228.1743 426.3754)" class="st3 st2"> </text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 229.8247 429.0228)" class="st3 st2">d</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 233.19 434.4198)" class="st3 st2">e</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 236.1734 439.2057)" class="st3 st2">s</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 238.7124 443.2789)" class="st3 st2">i</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 240.4585 446.0792)" class="st3 st2">g</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 243.5699 451.0687)" class="st3 st2">n</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 246.9663 456.5167)" class="st3 st2">s</text>
-	<text transform="matrix(0.5291 0.8486 -0.8486 0.5291 249.5054 460.5897)" class="st1 st2"> </text>
-	<text transform="matrix(1 0 0 1 -236.6557 0)" class="st1 st2"> </text>
+	<path id="SVGID_x5F_3_x5F__1_" class="st0" d="M151.3,304l138-220"/>
+	<text transform="matrix(1 0 0 1 -236.6557 0)" class="st2 st3"> </text>
+	<path id="SVGID_x5F_4_x5F__1_" class="st0" d="M190.8,366.5l101,162"/>
+	<text transform="matrix(1 0 0 1 -236.6557 0)" class="st2 st3"> </text>
 	<g>
 		<g>
-			<ellipse class="st9" cx="151.34" cy="304" rx="48.5" ry="26"/>
+			<ellipse class="st11" cx="151.3" cy="304" rx="48.5" ry="26"/>
 		</g>
-		<text transform="matrix(1 0 0 1 119.5451 312.5579)" class="st10 st11">Union</text>
+		<text transform="matrix(1 0 0 1 119.5451 312.5579)" class="st12 st13">Union</text>
 	</g>
 	<g>
-		<circle class="st9" cx="289.34" cy="84" r="53"/>
+		<circle class="st11" cx="289.3" cy="84" r="53"/>
 	</g>
 	<g>
-		<ellipse class="st9" cx="504.34" cy="414" rx="54" ry="38"/>
+		<ellipse class="st11" cx="504.3" cy="414" rx="54" ry="38"/>
 	</g>
 	<g>
-		<ellipse class="st9" cx="307.34" cy="554" rx="64" ry="28"/>
+		<ellipse class="st11" cx="307.3" cy="554" rx="64" ry="28"/>
 	</g>
-	<text transform="matrix(1 0 0 1 471.9327 405.9517)" class="st10 st11">LIHTC </text>
-	<text transform="matrix(1 0 0 1 458.1227 434.7517)" class="st10 st11">Investor</text>
-	<text transform="matrix(1 0 0 1 253.9089 559.9517)" class="st10 st11">Architect</text>
-	<text transform="matrix(1 0 0 1 248.2336 83.9517)" class="st10 st11">City of  </text>
-	<text transform="matrix(1 0 0 1 248.7636 112.7517)" class="st10 st11">Seattle</text>
+	<text transform="matrix(1 0 0 1 471.9327 405.9517)" class="st12 st13">LIHTC </text>
+	<text transform="matrix(1 0 0 1 458.1227 434.7517)" class="st12 st13">Investor</text>
+	<text transform="matrix(1 0 0 1 253.9089 559.9517)" class="st12 st13">Architect</text>
+	<text transform="matrix(1 0 0 1 248.2336 83.9517)" class="st12 st13">City of  </text>
+	<text transform="matrix(1 0 0 1 248.7636 112.7517)" class="st12 st13">Seattle</text>
 	<g>
-		<ellipse class="st9" cx="459.34" cy="232" rx="74" ry="55"/>
+		<ellipse class="st11" cx="459.3" cy="232" rx="74" ry="55"/>
 	</g>
-	<text transform="matrix(1 0 0 1 389.7217 224.9517)" class="st10 st11">Aff. Housing </text>
-	<text transform="matrix(1 0 0 1 402.6718 253.7517)" class="st10 st11">Developer</text>
+	<text transform="matrix(1 0 0 1 389.7217 224.9517)" class="st12 st13">Aff. Housing </text>
+	<text transform="matrix(1 0 0 1 402.6718 253.7517)" class="st12 st13">Developer</text>
 </g>
 <g id="initial_center_of_mass_1_">
 	<g>
-		<line class="st14" x1="335.34" y1="326" x2="347.34" y2="314"/>
-		<line class="st14" x1="335.34" y1="314" x2="347.34" y2="326"/>
+		<line class="st16" x1="335.3" y1="326" x2="347.3" y2="314"/>
+		<line class="st16" x1="335.3" y1="314" x2="347.3" y2="326"/>
 	</g>
 </g>
 <g>
 	<g>
-		<line class="st15" x1="585.51" y1="320" x2="624.55" y2="320"/>
 		<g>
-			<polygon points="618.93,327.41 622.08,320 618.93,312.59 636.49,320 			"/>
+			<g>
+				<line class="st18" x1="571.2" y1="320" x2="636" y2="320"/>
+				<g>
+					<polygon points="630.1,323.2 629.7,322.2 635.9,320 629.7,317.8 630.1,316.8 638.8,320 					"/>
+				</g>
+			</g>
 		</g>
 	</g>
 </g>
