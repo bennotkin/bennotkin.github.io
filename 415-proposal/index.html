@@ -31,7 +31,7 @@ TO UPDATE HTML:
 pandoc "/Users/bennotkin/Documents/415/Development Proposal/415-proposal/index.md" -f markdown+fenced_divs+pandoc_title_block -t html -s -c "proposal.css" -o "/Users/bennotkin/Documents/415/Development Proposal/415-proposal/index.html" && open -a brackets "/Users/bennotkin/Documents/415/Development Proposal/415-proposal/index.html"
  -->
 <div class="union-id">
-<p>Union Church<br>Land Development</p>
+<p>Union Church<br>Land Proposal</p>
 </div>
 <div class="page-title">
 <p>415 Development Project</p>
@@ -39,28 +39,50 @@ pandoc "/Users/bennotkin/Documents/415/Development Proposal/415-proposal/index.m
 <div class="nav">
 <input type="checkbox" id="toc-expander"/><label for="toc-expander">≡</label>
 <ul>
-<li><a href="#worship-assembly">Introduction</a></li>
-<li><a href="#conviction-one">Convictions</a></li>
-<li><a href="#proposal">Proposal</a>
+<li>
+<a href="#worship-assembly">Introduction</a>
+</li>
+<li>
+<a href="#convictions-link">Convictions</a>
+</li>
+<li>
+<a href="#proposals-link">Proposal</a>
 <ul>
-<li><a href="#proposal">Conceptual</a></li>
-<li><a href="#proposal-4">Ground Floor</a></li>
-<li><a href="#proposal-5">Venue Floor</a></li>
-<li><a href="#proposal-6">Offices</a></li>
-<li><a href="#proposal-7">Housing</a></li>
-<li><a href="#proposal-8">Participation</a></li>
-</ul></li>
-<li><a href="#other-churches-insights">Other Churches’ Insights</a></li>
-<li><a href="#questions">Questions</a></li>
+<li>
+<a href="#conceptual-link">Conceptual</a>
+</li>
+<li>
+<a href="#ground-link">Ground Floor</a>
+</li>
+<li>
+<a href="#venue-link">Venue Floor</a>
+</li>
+<li>
+<a href="#office-link">Offices</a>
+</li>
+<li>
+<a href="#housing-link">Housing</a>
+</li>
+<li>
+&lt;a href="#participation-link&gt;Participation</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#other-churches-insights">Other Churches’ Insights</a>
+</li>
+<li>
+<a href="#questions">Questions</a>
+</li>
 </ul>
 </div>
 <div class="main">
 <section id="worship-assembly" class="cover">
 <h1>Worship &amp; Assembly</h1>
+<figure>
+<img src="images/titleArtboard%201@2x.png" alt="Title card" /><figcaption aria-hidden="true">Title card</figcaption>
+</figure>
 <p>A shared and sacred space serving South Lake Union and Seattle through a missional coalition</p>
-<div class="minor">
-<p>(Please view on a computer. This hasn’t been designed yet for mobile.)</p>
-</div>
 </section>
 <figure>
 <img src="images/section-line.svg" alt="Section with programming and ownership" /><figcaption aria-hidden="true">Section with programming and ownership</figcaption>
@@ -68,11 +90,51 @@ pandoc "/Users/bennotkin/Documents/415/Development Proposal/415-proposal/index.m
 <section id="vision" class="vision">
 <h2>Vision</h2>
 <h3 id="union-gets-to-be-a-foothold-into-south-lake-union">Union gets to be a foothold into South Lake Union</h3>
-<p>For the past decade Union has beautifully challenged who belongs in Seattle’s fancy tech district.</p>
-<p>This development project is an opportunity to continue this subversion at an even greater scale. Through housing, offices, retail and other social infrastructure, Union gets to extend access to people and organizations who are otherwise excluded from life in South Lake Union.</p>
-<div class="image-3-row">
-<p><img src="images/temp1.png" alt="img" /> <img src="images/temp2.png" alt="img" /> <img src="images/temp3.png" alt="img" /></p>
-</div>
+<p>For the past decade, through its mission and relationships, Union has beautifully challenged who belongs in Seattle’s fancy tech district.</p>
+<p>In redeveloping the land we have an opportunity to continue challenging the neighborhood’s dominant narrative at an even greater scale, and offer a transformatively welcoming and empowering space. Through housing, offices, retail and other social infrastructure, Union gets to extend access to people and organizations who are otherwise excluded from life in South Lake Union.</p>
+<p>With this document I start to imagine what the church’s land could become and how it could serve Union and the city more broadly. What form should the development take and how do we get there? What are the processes and relatinships that can grow this project and grow from it?</p>
+<p>I believe in the components I propose but my real hope is to spur additional questions and expand our sense of what’s possible.</p>
+<p>— Ben</p>
+<p><br></p>
+<h4 id="contents">Contents</h4>
+<ul>
+<li>
+<a href="#worship-assembly">Introduction</a>
+</li>
+<li>
+<a href="#convictions-link">Convictions</a>
+</li>
+<li>
+<a href="#proposals-link">Proposal</a>
+<ul>
+<li>
+<a href="#conceptual-link">Conceptual</a>
+</li>
+<li>
+<a href="#ground-link">Ground Floor</a>
+</li>
+<li>
+<a href="#venue-link">Venue Floor</a>
+</li>
+<li>
+<a href="#office-link">Offices</a>
+</li>
+<li>
+<a href="#housing-link">Housing</a>
+</li>
+<li>
+&lt;a href="#participation-link&gt;Participation</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="#other-churches-insights">Other Churches’ Insights</a>
+</li>
+<li>
+<a href="#questions">Questions</a>
+</li>
+</ul>
+<!-- originally was putting three images here of Union demonstrating this challenge -->
 </section>
 <section id="first-what-are-your-thoughts" class="interactive">
 <h3>First, what are your thoughts?</h3>
@@ -80,7 +142,7 @@ pandoc "/Users/bennotkin/Documents/415/Development Proposal/415-proposal/index.m
 <h4 id="what-are-the-benefits-of-being-in-south-lake-union-for-the-church-and-for-anyone-or-any-group">What are the benefits of being in South Lake Union, for the church and for anyone or any group?</h4>
 <form name="benefits-input">
 <textarea name="benefits" placeholder="List some benefits of being in SLU, not only for Union, but for anyone or any group." rows=4></textarea>
-<button type="submit">
+<button id="benefits-button" type="submit">
 Add your anonymous response to the conversation
 </button>
 </form>
@@ -89,7 +151,7 @@ Add your anonymous response to the conversation
 <h3>What are the challenges of being in SLU?</h3>
 <form name="challenges-input">
 <textarea name="challenges" placeholder="List some challenges of being in SLU, not only for Union, but for anyone or any group." rows=4></textarea>
-<button type="submit">
+<button id="challenges-button" type="submit">
 Add your anonymous response to the conversation
 </button>
 </form>
@@ -99,7 +161,7 @@ Add your anonymous response to the conversation
 <p>A key step in design thinking is to consider the design from the perspective of its users. Who do you consider to be the “users” of the project? Who is affected by it? Some “users” might never actually visit the building and still be affected by it</p>
 <form name="users-input">
 <textarea name="users" placeholder="List some potential users." rows=4></textarea>
-<button type="submit">
+<button id="users-button" type="submit">
 Add your anonymous response to the conversation
 </button>
 </form>
@@ -113,7 +175,9 @@ Add your anonymous response to the conversation
   form_ben.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form_ben)})
-      .then(response => console.log('Success!', response))
+      .then(response => { 
+      document.getElementById("benefits-button").innerHTML = "Sent";
+      console.log('Success!', response);} )
       .catch(error => console.error('Error!', error.message))
   })
 </script>
@@ -123,7 +187,9 @@ Add your anonymous response to the conversation
   form_chal.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form_chal)})
-      .then(response => console.log('Success!', response))
+      .then(response => { 
+      document.getElementById("challenges-button").innerHTML = "Sent";
+      console.log('Success!', response);} )
       .catch(error => console.error('Error!', error.message))
   })
 </script>
@@ -133,29 +199,39 @@ Add your anonymous response to the conversation
   form_users.addEventListener('submit', e => {
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form_users)})
-      .then(response => console.log('Success!', response))
+      .then(response => { console.log('Success!', response);
+      document.getElementById("users-button").innerHTML = "Sent";} )
       .catch(error => console.error('Error!', error.message))
   })
 </script>
 </section>
+<div id="convictions-link" class="conviction subtitle-card">
+<h1 id="convictions">Convictions</h1>
+<p>Some of the guiding values I bring with me as I think about what 415 Westlake could be</p>
+</div>
 <section id="conviction-one" class="conviction">
 <h2>Conviction One</h2>
-<h3 id="participation-is-important">Participation is important</h3>
-<p>A project performs better and is more just when people who are affected by it are involved in the design process.</p>
+<h3 id="center-the-process-in-participation">Center the process in participation</h3>
+<p>A project performs better and more justly when people who are affected by it are involved in the design process.</p>
 <p>Many questions, like those above, need to be asked and need to be asked of a wide audience. Engagement is important for reasons of both equity and practicality. More participation allows for broader community support. This support is important throughout the process. It also means the project will better serve the people it affects.</p>
-<p>See <a href="#proposal-7">participation</a> and <a href="#questions">questions to ask</a>.</p>
+<p>See <a href="#participation-link">participation</a> and <a href="#questions">questions to ask</a>.</p>
 </section>
 <section id="conviction-two" class="conviction">
 <h2>Conviction Two</h2>
-<h3 id="vision-development-is-as-legitimate-preparatory-work-as-financial-feasibility-and-massing-studies.">Vision development is as legitimate preparatory work as financial feasibility and massing studies.</h3>
-<p>Financial analysis is only important if a project matters. Knowing whether a project is feasible is different from knowing what is needed and what should be.</p>
-<p>Vision development</p>
-<ul>
-<li>looks beyond existing programming</li>
-<li>engages the community and the public</li>
-<li>assesses needs</li>
-<li>finds partners</li>
-</ul>
+<h3 id="vision-development-is-as-important-as-financial-analysis">Vision development is as important as financial analysis</h3>
+<p>Just like financial analysis and technical studies, vision development is a necessary step in the pre-development process and also requires its own expertise. Financial analysis is only important if a project matters. Knowing whether a project is feasible is different from knowing what is needed and what should be. Like for other pre-analysis, there are firms that do this work.</p>
+<!-- >
+#### Vision development
+
+- listens to the experience and input of the community and broader public through creative and meaningful engagement
+- interrogates assumptions
+- looks beyond existing 
+- improves upon existing operations and imagines new capacity
+- 
+- assesses needs
+- recognizes past experience while also imagining new possibility
+- imagines new life
+- finds partners who can benefit and benefit -->
 </section>
 <section id="conviction-three" class="conviction">
 <h2>Conviction Three</h2>
@@ -166,9 +242,9 @@ Add your anonymous response to the conversation
 <li><strong>Centrality</strong> Close to downtown and Capitol Hill and centrally located among residential neighborhoods</li>
 <li><strong>Co-location</strong> Lots of power and socially-recognized skill, especially in tech and medicine.</li>
 <li><strong>Active</strong> Busy streets with lots of (daytime) foot traffic</li>
-<li><strong>Social services</strong> [Is this very true?]</li>
-<li><strong>Walkable</strong> …</li>
-<li><strong>Transit</strong> … [true?]</li>
+<li><strong>Social services</strong> Many social services are centered downtown</li>
+<li><strong>Walkable</strong></li>
+<li><strong>Transit</strong></li>
 <li><strong>Rising Land Value</strong> For people and groups that already own land, speculation provides economic return</li>
 <li><strong>Nearby Jobs</strong> Many jobs of many varieties within walking distance</li>
 <li><strong>Invested In</strong></li>
@@ -185,50 +261,87 @@ Add your anonymous response to the conversation
 <h2>Conviction Four</h2>
 <h3 id="expand-who-we-consider-to-be-stakeholders">Expand who we consider to be stakeholders</h3>
 <h4 id="we-need-to-consider-the-project-from-the-perspective-of-its-future-users.-to-be-just-we-need-to-challenge-and-broaden-our-initial-thoughts-of-who-these-users-are.">We need to consider the project from the perspective of its future users. To be just, we need to challenge and broaden our initial thoughts of who these users are.</h4>
-<p>Current stakeholders include Union, students being tutored during covid, women staying in the women’s shelter, venue-renting groups, cafe patrons, and the organizations Union partners with. As we discuss affordable housing, the City of Seattle, the LIHTC investor and the developer become stakeholders as well.</p>
-<p>Who else are our stakeholders?</p>
+<p>Current stakeholders include Union, students being tutored during covid, women staying in the women’s shelter, venue-renting groups, cafe patrons, and the organizations Union partners with. As we discuss affordable housing, the City of Seattle, the LIHTC investor and the developer become stakeholders as well. Who else are our stakeholders?</p>
+<h4 id="above-i-asked-who-potential-users-of-the-project-were.-are-there-other-stakeholders-you-would-add">Above, I asked who potential users of the project were. Are there other stakeholders you would add?</h4>
+<form name="users2-input">
+<textarea name="users" placeholder="Name potential stakeholders." rows=4></textarea>
+<button id="users2-button" type="submit">
+Add your anonymous response to the conversation
+</button>
+</form>
+<script type="application/javascript">
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzOpF9awfBP862RpIhl-n3cmZGb_Puz0JJVVV7sx0n4e60XTG70/exec'
+  const form_users2 = document.forms['users2-input']
+
+  form_users2.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form_users2)})
+      .then(response => { 
+      document.getElementById("users2-button").innerHTML = "Sent";
+      console.log('Success!', response);} )
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
 </section>
 <section id="conviction-five" class="conviction">
 <h2>Conviction Five</h2>
 <h3 id="distribute-ownership-and-control">Distribute ownership and control</h3>
-<p>For a project this size, Union will have to give up control and ownership. Union can choose who it shares this control and ownership with. Union should distribute ownership among a coalition of missional partners so that less equity is required from investment-oriented partners.</p>
+<p>A project this size and this expensive will typically require giving up control and ownership. Most affordable housing projects, for example, sell 99.99% of equity to LIHTC investors. Union can choose who it shares this control and ownership with. Union should distribute ownership among a coalition of missional partners so that less equity is required from investment-oriented partners.</p>
+<h4 id="who-are-potential-partners-that-union-could-collaborate-and-co-own-with">Who are potential partners that Union could collaborate and co-own with?</h4>
+<form name="partners-input">
+<textarea name="partners" placeholder="Name potential partners" rows=4></textarea>
+<button id="partners-button" type="submit">
+Add your anonymous response to the conversation
+</button>
+</form>
+<script type="application/javascript">
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzOpF9awfBP862RpIhl-n3cmZGb_Puz0JJVVV7sx0n4e60XTG70/exec'
+  const form_partners = document.forms['partners-input']
+
+  form_partners.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form_partners)})
+      .then(response => { 
+      document.getElementById("partners-button").innerHTML = "Sent";
+      console.log('Success!', response);} )
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
 </section>
 <section id="conviction-six" class="conviction lo-image-right">
 <h2>Conviction Six</h2>
-<h3 id="the-project-pursues-equity-and-justice-throughout-design-development-and-operation">The project pursues equity and justice, throughout design, development and operation</h3>
+<h3 id="pursue-equity-and-justice-throughout-design-development-and-operation">Pursue equity and justice, throughout design, development and operation</h3>
 <section id="the-just-city-index" class="image-text">
 <h4><a href="https://www.designforthejustcity.org/engage">The Just City Index</a></h4>
-<p>The Just City Lab provides a framework of community values that can guide a project, as well as other resources.</p>
+<p>The Just City Lab provides a framework of community values that can guide a project, as well as other resources. A project team can look through these values with the broader community to identify the values that should guide the project. Throughout the project the team can then ask how the work is furthering these values.</p>
 </section>
 <figure>
 <img src="images/just-city.png" alt="Just City Index" /><figcaption aria-hidden="true">Just City Index</figcaption>
 </figure>
 </section>
 <div id="proposal-cover" class="proposal">
-<figure>
-<img src="images/proposal-cover.png" alt="proposal-cover" /><figcaption aria-hidden="true">proposal-cover</figcaption>
-</figure>
+<!-- ![proposal-cover](images/proposal-cover.png) -->
 <h1 id="proposal">Proposal</h1>
 <p>Affordable housing with institutional partnerships, a non-profit hub, and cooperatively owned ground floor retail.</p>
 </div>
-<section id="proposal-1" class="proposal">
-<h2>Proposal</h2>
+<div id="proposals-link" class="proposal">
+<h2 id="proposal-1">Proposal</h2>
 <h3 id="were-doing-affordable-housing-now-what">We’re doing affordable housing! Now what?</h3>
 <p>Union has committed to using the land it stewards to provide affordable housing. In a city and an era with a housing crisis, this is an incredibly important project. Still, lots of questions remain.</p>
 <h4 id="what-kind-of-housing-and-for-whom">What kind of housing and for whom?</h4>
 <!-- maybe add in more questions here -->
 <h4 id="what-are-the-non-residential-activities-in-the-building">What are the non-residential activities in the building?</h4>
 <!-- – and questions about the non-residential aspects of the building – _what's on the ground floor? how does the building's construction and operation relate to climate change?_ -->
-</section>
-<section id="proposal-2" class="proposal">
-<h2>Proposal</h2>
+</div>
+<div id="conceptual-link" class="proposal">
+<h2 id="proposal-2">Proposal</h2>
 <h3 id="housing-is-important-but-insufficient">Housing is important but insufficient</h3>
 <h4 id="south-lake-union-is-increasingly-residential-but-is-still-primarily-a-working-district">South Lake Union is increasingly residential, but is still primarily a working district</h4>
 <p>The main benefits of South Lake Union are its central location in the city, the proximity to powerful players (and their workers) in tech, medicine and research, and, for landowners, the rising land value.</p>
 <p>Union can more maximally share access to these benefits than by simply providing affordable housing. While residents can take advantage of South Lake Union’s merits, non-profits and businesses are more poised to gain from the neighborhood’s locational strengths.</p>
 <p>Regarding housing, Union can share access to the rising land value by giving occupants shares of equity.</p>
 <p>One advantage of South Lake Union being not-quite-residential is that this project gets to help set the tone for what kind of residential neighborhood it is and for whom.</p>
-</section>
+</div>
 <section id="proposal-3" class="proposal lo-image-wide-top">
 <h2>Proposal</h2>
 <h3 id="partnering-with-other-organizations-harnesses-other-sources-of-funding-and-support">Partnering with other organizations harnesses other sources of funding and support</h3>
@@ -245,14 +358,14 @@ Add your anonymous response to the conversation
 <img src="images/section-line-ground.svg" alt="Ground floor" /><figcaption aria-hidden="true">Ground floor</figcaption>
 </figure>
 </section>
-<section id="proposal-ground-floor" class="proposal">
-<h2>Proposal: Ground Floor</h2>
+<div id="ground-link" class="proposal">
+<h2 id="proposal-ground-floor">Proposal: Ground Floor</h2>
 <h3 id="take-advantage-of-the-long-street-front">Take advantage of the long street front</h3>
 <p>The site’s 120–180 feet on Westlake is an opportunity for a porous, interactive and welcoming building. Put retail and other services on the ground floor.</p>
 <p>Most people interacting with the building won’t be living in it or attending events. They’ll be walking by. How can we activate the ground floor so that it invites passersby in? How can the ground floor serve people who live or work nearby?</p>
 <p>With retail on the ground floor, Union can give otherwise excluded businesses access to SLU’s dense activity, while also giving residents and workers the services they need.</p>
-</section>
-<section id="proposal-ground-floor-1" class="lo-image-right proposal">
+</div>
+<section id="proposal-ground-floor-1" class="proposal">
 <h2>Proposal: Ground Floor</h2>
 <h3 id="provide-missing-social-infrastructure-to-serve-residents-and-broader-community">Provide missing social infrastructure to serve residents and broader community</h3>
 <p>Make SLU a neighborhood for lower income folks by providing accessible retail and services.</p>
@@ -262,17 +375,14 @@ Add your anonymous response to the conversation
 <h4>Garden Grove United Methodist</h4>
 <p>Partnering with the local government and an affordable housing developer, Garden Grove has built multigenerational affordable housing alongside educational, social and health services, for both the residents and the larger community.</p>
 </section>
-<figure>
-<img src="images/temp1.png" alt="Garden Grove United Methodist" /><figcaption aria-hidden="true">Garden Grove United Methodist</figcaption>
-</figure>
 </section>
 <section id="proposal-ground-floor-2" class="lo-image-right proposal">
 <h2>Proposal: Ground Floor</h2>
 <h3 id="make-retail-affordable-by-making-it-small">Make retail affordable by making it small</h3>
 <p>120 feet of street frontage could fit six 20’ storefronts – plus more in the alley!</p>
-<p>Retail space is often unaffordable not only because of high rents per square foot, but also because of large areas. New developments often build very large retail stalls to attract more stable national chains, and reduce the number of tenants they need to manage.</p>
+<p>Retail space is often unaffordable not only because of high rents per square foot, but also because of large areas. New developments often build very large retail stalls to attract more stable national chains, and reduce the number of tenants they need to manage. By designing flexible smaller spaces the building could accomodate smaller tenants.</p>
 <figure>
-<img src="images/temp2.png" alt="Bow Market" /><figcaption aria-hidden="true">Bow Market</figcaption>
+<img src="images/bow-market.jpeg" alt="Bow Market" /><figcaption aria-hidden="true">Bow Market</figcaption>
 </figure>
 </section>
 <section id="proposal-ground-floor-3" class="proposal">
@@ -280,7 +390,7 @@ Add your anonymous response to the conversation
 <h3 id="cooperative-retail-space-lets-residents-decide-whats-needed">Cooperative retail space lets residents decide what’s needed</h3>
 <p>Residents know best what kind of retail and services they need. Let residents own shares of the retail space.</p>
 <ul>
-<li>Includes residents of building and broader neighborhood or community (see CLT governance model)</li>
+<li>Includes residents of building and broader neighborhood or community. <a href="https://community-wealth.org/strategies/panel/clts/index.html">Community Land Trusts</a>, for example are governed by a three-part board including residents, neighbors, and local officials. (Many of the first urban CLTs were <a href="https://community-wealth.org/sites/clone.community-wealth.org/files/downloads/report-davis14.pdf">led by churches</a>.</li>
 <li>Includes other in-building organizations</li>
 <li>Gives residents a say in how the space is used, so that it meets real needs</li>
 <li>Lets residents financially (and programmatically) benefit from retail space</li>
@@ -289,13 +399,13 @@ Add your anonymous response to the conversation
 <li>Uses security deposits and last months rent as share payments, keeping shares affordable for building occupants</li>
 </ul>
 </section>
-<section id="proposal-5" class="subtitle-card">
-<h2>Proposal</h2>
+<div id="venue-link" class="subtitle-card">
+<h2 id="proposal-5">Proposal</h2>
 <h3 id="venue-floor">Venue Floor</h3>
 <figure>
 <img src="images/section-line-venue.svg" alt="Ground floor" /><figcaption aria-hidden="true">Ground floor</figcaption>
 </figure>
-</section>
+</div>
 <section id="proposal-venue-floor" class="proposal lo-image-right">
 <h2>Proposal: Venue Floor</h2>
 <h3 id="venue-space-can-focus-on-public-events.">Venue space can focus on public events.</h3>
@@ -311,40 +421,48 @@ Add your anonymous response to the conversation
 <section id="proposal-venue-floor-1" class="proposal">
 <h2>Proposal: Venue Floor</h2>
 <h3 id="co-programmed-with-building-occupants">Co-programmed with building occupants</h3>
-<p>Like in 415’s history, many of these events will be put on by other organizations that lease the space, but now the venue can dedicate more energy to hosting more of its own events. 415 Westlake can become a public cultural and social event space, with film screenings, meals, poetry slams, new-to-Seattle events, trainings, forums, etc. Union, as Union, as 415 Westlake, and as Kakao, has already hosted these events, but can now commit more of the calendar to them.</p>
-<p>Programming these events takes serious effort and creativity. Union could plan them entirely internally, but this is also an opportunity to partner with other organizations. The other non-profits in the non-profit hub, with their own focuses, audiences and connections, could co-program the space with Union. The venue space is a space to be shared with these partner organizations and with the public.</p>
+<p>Like in 415’s history, many of these events will be put on by other organizations that lease the space, but now the venue can dedicate more energy to hosting more of its own events.</p>
+<p>415 Westlake can become a public cultural and social event space, with film screenings, meals, poetry slams, new-to-Seattle events, trainings, forums, etc. Union, as Union, as 415 Westlake, and as Kakao, has already hosted these events, but can now commit more of the calendar to them.</p>
+<p>Programming these events takes significant effort and creativity. Union could plan them entirely internally, but this is also an opportunity to partner with other organizations. The other non-profits in the non-profit hub, with their own focuses, audiences and connections, could co-program the space with Union. The venue space is a space to be shared with these partner organizations and with the public.</p>
 </section>
-<section id="proposal-venue-floor-2" class="proposal">
+<section id="proposal-venue-floor-2" class="proposal lo-image-right">
 <h2>Proposal: Venue Floor</h2>
 <h3 id="a-second-floor-venue-also-means-deck-space-for-the-venue.">A second floor venue also means deck space for the venue.</h3>
 <p>Instead of a through-block connection, or a street-facing patio, the venue can have its own outdoor space with sky above.</p>
 <p>As designed in Weber Thompson’s massing study, this deck space is already required by zoning. Unlike a through-block connection or a patio, this space can be totally private – though Union could let the public use it when no events are taking place. The deck could also be used by the cafe or other retail.</p>
+<section id="the-balcony-orlando" class="image-text">
+<h4><a href="https://thebalconyorlando.com">The Balcony, Orlando</a></h4>
 </section>
-<section id="proposal-6" class="proposal subtitle-card">
-<h2>Proposal</h2>
+<figure>
+<img src="images/balcony.png" alt="The Balcony" /><figcaption aria-hidden="true">The Balcony</figcaption>
+</figure>
+</section>
+<div id="office-link" class="proposal subtitle-card">
+<h2 id="proposal-6">Proposal</h2>
 <h3 id="offices">Offices</h3>
 <figure>
 <img src="images/section-line-office.svg" alt="Ground floor" /><figcaption aria-hidden="true">Ground floor</figcaption>
 </figure>
-</section>
+</div>
 <section id="proposal-offices" class="proposal">
 <h2>Proposal: Offices</h2>
 <h3 id="a-non-profit-hub-brings-otherwise-excluded-organizations-together-and-into-slu">A non-profit hub brings otherwise excluded organizations together and into SLU</h3>
 <p>South Lake Union is a commercial district and its assets are most attractive to businesses and organizations. Medical and tech non-profits, especially, could hugely benefit from being near SLU’s power players and their employees. Other non-profits focus on SLU’s more forgotten communities – like people experiencing homelessness, lower income residents, or wage workers.</p>
-<p>The third and fourth floors are office space for Union and for organizations that could take advantage of SLU’s location, as well as benefit from being near each other and Union. These organizations have their own offices, while also sharing space and resources to keep operation more affordable. They may also co-program the venue space. Each of these organizations has its own donor networks and access to funding. By partnering with these organizations early on and including them in the development process, the project could benefit from a much broader capital campaign. Per organization, the capital costs of development will be much lower because of sharing space and construction, and because they don’t need to purchase land.</p>
+<p>The third and fourth floors are office space for Union and for organizations that could take advantage of SLU’s location, as well as benefit from being near each other and Union. These organizations have their own offices, while also sharing space and resources to keep operation more affordable. They may also co-program the venue space.</p>
+<p>Each of these organizations has its own donor networks and access to funding. By partnering with these organizations early on and including them in the development process, the project could benefit from a much broader capital campaign. Per organization, the capital costs of development will be much lower because of sharing space and construction, and because they don’t need to purchase land.</p>
 </section>
 <section id="proposal-offices-1" class="proposal">
 <h2>Proposal: Offices</h2>
 <h3 id="non-profit-co-working">Non-profit co-working</h3>
 <p>Other organizations are too small to join the development process but would still benefit from being in South Lake Union. Some of the offices could be co-working space exclusively for non-profits.</p>
 </section>
-<section id="proposal-7" class="proposal subtitle-card">
-<h2>Proposal</h2>
+<div id="housing-link" class="proposal subtitle-card">
+<h2 id="proposal-7">Proposal</h2>
 <h3 id="housing">Housing</h3>
 <figure>
 <img src="images/section-line-housing.svg" alt="Ground floor" /><figcaption aria-hidden="true">Ground floor</figcaption>
 </figure>
-</section>
+</div>
 <section id="proposal-housing" class="proposal">
 <h2>Proposal: Housing</h2>
 <h3 id="partner-with-other-institutions">Partner with other institutions</h3>
@@ -370,7 +488,7 @@ Add your anonymous response to the conversation
 <img src="https://whatcomwebsite-inflightstudio.netdna-ssl.com/wp-content/uploads/sites/15/2018/11/Exterior-View-Looking-Southwest-Rendering_smaller.jpg" alt="Othello Square Limited Equity Cooperative" /><figcaption aria-hidden="true">Othello Square Limited Equity Cooperative</figcaption>
 </figure>
 </section>
-<section id="proposal-housing-2" class="proposal lo-wide-image-top">
+<section id="proposal-housing-2" class="proposal lo-image-right">
 <h2>Proposal: Housing</h2>
 <h3 id="make-housing-cheaper-and-more-relational-with-co-housing">Make housing cheaper and more relational with co-housing</h3>
 <p>More of residential life is moved into common spaces, increasing interactions between residents and keeping construction and rent costs down.</p>
@@ -383,7 +501,7 @@ Add your anonymous response to the conversation
 <p>Built in 2014, the <a href="(https://assemblepapers.com.au/2018/01/25/co-op-city-zurichs-experiment-with-non-profit-housing/)">Kalkbreite Cooperative</a> has 97 affordable housing units, 50,000 square feet of retail, office and studio space, and a publicly accessible raised plaza.</p>
 </section>
 </section>
-<section id="proposal-housing-3" class="proposal lo-wide-image-top">
+<section id="proposal-housing-3" class="proposal lo-image-right">
 <h2>Proposal: Housing</h2>
 <h3 id="connect-residences-to-the-other-activities-in-the-building">Connect residences to the other activities in the building</h3>
 <p>In commercial co-housing models, the premise of <em>community</em> is largely a conceit to increase profits, and isn’t supported with meaningful programming. When co-housing is supported, however, it is a way of reducing costs for renters while also providing social connections that can be difficult to achieve, especially when living alone in a new city.</p>
@@ -392,45 +510,46 @@ Add your anonymous response to the conversation
 <img src="images/3-levels.svg" alt="Cross-floor interactions" /><figcaption aria-hidden="true">Cross-floor interactions</figcaption>
 </figure>
 </section>
-<section id="proposal-participation" class="proposal">
-<h2>Proposal: Participation</h2>
-<h3 id="bringing-in-other-voices-expands-the-vision.">Bringing in other voices expands the vision.</h3>
+<div id="participation-link" class="proposal">
+<h2 id="proposal-participation">Proposal: Participation</h2>
+<h3 id="bringing-in-other-voices-expands-the-vision">Bringing in other voices expands the vision</h3>
 <p>Community engagement is important for making the project relevant to real needs, for creating a stronger vision, for developing support, and for realizing people’s right to develop their city.</p>
-<p>Access to a city means not only the ability to visit, use or live in the city, but the ability to shape and influence it – to co-design what it <em>should be</em>. This is a rare opportunity anywhere in any city, but especially in South Lake Union, which is owned and designed by some of the world’s wealthiest companies and individuals. This project is a rare chance for individuals – within and beyond Union – to say what they want South Lake Union to be, and work towards making it real.</p>
+<p>Access to a city means not only the ability to visit, use or live in the city, but the ability to shape and influence it – to co-design what it <em>should be</em>. This is a rare opportunity anywhere in any city, but especially in South Lake Union, which is owned and designed by and for some of the world’s wealthiest companies and individuals. This project is a rare chance for individuals – within and beyond Union – to say what they want South Lake Union to be, and work towards making it real.</p>
 <p>As a congregation of people, Union has tremendous opportunity for widespread participation. Union is a diverse body of people from across the city with many different perspectives and assessments of need. This wisdom is invaluable for understanding what this project could or should be. The congregation also connects Union to the broader community, whose input is also generative and important.</p>
 <p>Community engagement also builds community support. A project of this scale often receives public opposition. When the broader community identifies with the project and sees it as in their interest, they are more likely to support the project in the face of opposition. (See <a href="#other-churches-insights">other churches’ insights</a> below.)</p>
 <p>Below are a handful of ideas about what participation could look like.</p>
-</section>
+</div>
 <section id="proposal-participation-1" class="proposal">
 <h2>Proposal: Participation</h2>
 <h3 id="distributed-ownership">Distributed ownership</h3>
 <p>The development process is this new project’s first phase of life, and lots of decisions will be made in this period. Many decisions about the building and how it should be used – how the building serves people’s interest – will be made after development. By distributing ownership to residents, neighbors and other organizations, such as through an LEC or retail cooperatives, Union provides a democratic means by which people continue to have a say in the project.</p>
 </section>
-<section id="proposal-participation-2" class="proposal">
+<section id="proposal-participation-2" class="proposal lo-image-right">
 <h2>Proposal: Participation</h2>
 <h3 id="collaboratively-draw-a-map-from-below">Collaboratively draw a “map from below”</h3>
 <p>South Lake Union carries easy associations with tech, medicine and business, but this is an incomplete portrayal of the neighborhood. As a congregation and beyond, draw a people’s map of South Lake Union, highlighting social services, relationships, resources, hostilities, art, transit, etc.</p>
 <p>I’ll try to set up an interactive map that lets people add markers for different spots, but people could also draw on an image of SLU, or could verbally describe locations.</p>
 <figure>
-<img src="images/temp1.png" alt="Interactive leaflet" /><figcaption aria-hidden="true">Interactive leaflet</figcaption>
+<img src="images/undermap-temp.png" alt="Interactive leaflet" /><figcaption aria-hidden="true">Interactive leaflet</figcaption>
 </figure>
 </section>
 <section id="proposal-participation-3" class="lo-image-right">
 <h2>Proposal: Participation</h2>
 <h3 id="start-a-virtual-conversation-with-weekly-questions">Start a virtual conversation with weekly questions</h3>
 <p>Have people to dream and analyze together by providing questions each week via email, text, and Instagram, and encouraging people to share their answers.</p>
-<p>These questions help people feel they have ownership of the project, and can generate important ideas. Thinking about these prompts can also be a helpful reflective tool for individuals or families, as they consider their values, their city, and their relationship to it. When engaging people, it’s important to ask both wide-open and more specific questions. Give people the freedom to dream out of nothing, but also let them respond to firmer prompts.</p>
-<p>This virtual outreach could happen on many platforms. On Instagram, Union (and Kakao and 415 Westlake) could post a question, and encourage followers to respond via an Instagram story – further spreading the engagement. Via email and text message, Union could also send out questions, and then the next week send people each other’s anonymous (or not) answers for them to respond to. (I’m excited about this one. It’s also less complicated than it sounds. Let’s talk more about it.)</p>
+<p>These questions help people have ownership of the project and can generate important ideas. Thinking about these prompts can also be a helpful reflective tool for individuals or families, as they consider their values, their city, and their relationship to it. When engaging people, it’s important to ask both wide-open and more specific questions. Give people the freedom to dream out of nothing, but also let them respond to firmer prompts.</p>
+<!--
+This virtual outreach could happen on many platforms. On Instagram, Union (and Kakao and 415 Westlake) could post a question, and encourage followers to respond via an Instagram story – further spreading the engagement. Via email and text message, Union could also send out questions, and then the next week send people each other's anonymous (or not) answers for them to respond to. (I'm excited about this one. It's also less complicated than it sounds. Let's talk more about it.) -->
 <div class="hide">
 <p>Unlike most projects, Union has/<em>is</em> a built-in audience it can immediately engage. While we’re all staying home, start a virtual conversation by sending out weekly questions that people can publicly or privately respond to.</p>
 </div>
 <figure>
-<img src="images/temp3.png" alt="Instagram story screenshot" /><figcaption aria-hidden="true">Instagram story screenshot</figcaption>
+<img src="images/instagram.png" alt="Instagram story screenshot" /><figcaption aria-hidden="true">Instagram story screenshot</figcaption>
 </figure>
 </section>
 <section id="proposal-participation-4" class="proposal lo-image-right">
 <h2>Proposal: Participation</h2>
-<h3 id="host-a-teach-in-to-broaden-the-conversation">Host a teach-in to broaden the conversation</h3>
+<h3 id="host-teach-ins-to-broaden-the-conversation">Host teach-ins to broaden the conversation</h3>
 <p>Leaning in to being a public and cultural venue, Union hosts speakers and educators on topics related to affordable housing, public space, urban democracy, co-housing, cooperative retail, etc.</p>
 <p>These events introduce new concepts and language for Union’s project, broadening the conversation about what could be, while also being relevant beyond the specific project.</p>
 <section id="hamar-norway" class="image-text">
