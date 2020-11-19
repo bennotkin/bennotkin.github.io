@@ -141,7 +141,7 @@ ul {
     list-style-type: circle;
 }
 
-ul strong {font-family: "Gangster Grotesk"; font-size: 1.05em;}
+ul strong {font-family: gangster, "gangster", "Gangster Grotesk"; font-size: 1.05em;}
 
 .minor p {/*color:darkgrey*/; text-align: center; font-size: 0.8em; margin-top: 10em; display: none;}
 
