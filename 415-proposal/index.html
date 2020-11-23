@@ -36,6 +36,15 @@ pandoc "/Users/bennotkin/Documents/his-web-materials/personal_website/415-propos
 <div class="page-title">
 <p>415 Development Project</p>
 </div>
+<div class="corner-note">
+<input type="checkbox" id="comments-expander"/><label for="comments-expander">Add your thoughts</label>
+<form name="page-input">
+<textarea name="page-comments" placeholder="Record your thoughts, questions and dreams as you read. Comment will be anonymously shared with the vision team." rows=10></textarea>
+<button id="comments-button" type="submit">
+Save
+</button>
+</form>
+</div>
 <div class="nav">
 <input type="checkbox" id="toc-expander"/><label for="toc-expander">≡</label>
 <ul>
@@ -198,6 +207,17 @@ Add your anonymous response to the conversation
     fetch(scriptURL, { method: 'POST', body: new FormData(form_users)})
       .then(response => { console.log('Success!', response);
       document.getElementById("users-button").innerHTML = "Sent";} )
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script type="application/javascript">
+  const form_page = document.forms['page-input'];
+  form_page.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form_page)})
+      .then(response => { 
+      document.getElementById("comments-button").innerHTML = "Saved";
+      console.log('Success!', response);} )
       .catch(error => console.error('Error!', error.message))
   })
 </script>
