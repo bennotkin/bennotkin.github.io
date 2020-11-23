@@ -220,6 +220,32 @@ input[type=checkbox] {display:none;}
 
 .nav a {border-bottom: none;}
 
+.corner-note {
+    position: fixed;
+    top: 0ch;
+    right: 1ch;
+    justify-self: end;
+    width: 20vw;
+    min-width: 20ch;
+}
+
+.corner-note label {text-align: end;}
+.corner-note label:hover {font-style: italic;}
+.corner-note button, #comments-button {
+    background-color: transparent;
+    border: none;
+    margin-top: 0em;
+    padding: 0em;
+    position: relative;
+    top: -1.6em;
+    text-align: end;
+    right: 2ch;
+}
+
+.corner-note form  {display:none;}
+#comments-expander:checked ~ form {display:block; float:left; position: relative;
+}
+
 .main {
     width: 100vw;
 /*
