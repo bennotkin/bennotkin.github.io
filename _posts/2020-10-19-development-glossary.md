@@ -1,3 +1,4 @@
+---
 layout: post
 title: "Development Glossary"
 date: 2020-10-19

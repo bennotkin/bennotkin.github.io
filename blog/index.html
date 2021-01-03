@@ -4,12 +4,12 @@ title: Ben's Weblog
 ---
 <div class="container">
           {% for post in site.posts %}
-         <div class="postbox {{ post.length }}">
+         <div class="postbox {{ post.length }} {{ post.scroll }}">
              {% if post.length == "long" %}
                <h2>{{ post.title }}</h2>
              {% endif %}
              {{ post.content }}
-             <p class="postdate">{{ post.date | date_to_string }} | <a href="{{ post.url }}">link</a></p>
+             <p class="postdate">{{ post.date | date_to_string }}; <a href="{{ post.url }}">permalink</a>.</p>
         </div>
       {% endfor %}
 </div>

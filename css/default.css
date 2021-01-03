@@ -37,6 +37,12 @@ div.nav div.mobile {
     padding: 1ch;
 }
 
+h1 {
+    margin: 0 0 1rem 0;
+    font-weight: 400;
+    letter-spacing: 0.03ch;
+}
+
 h2 {font-weight: 400;
     font-size: 1.3em;
 }
@@ -71,6 +77,12 @@ div.mobile h2 {
     letter-spacing: 0.1ch
 }
 
+.meta {
+    margin: 1rem 0;
+    font-style: italic;
+    color: darkgray;
+}
+
 /*editing the blog index*/
 
 div.postbox {
@@ -80,6 +92,8 @@ div.postbox {
 p.postdate {
     text-align: right;
     color: darkgrey;
+    font-size: 0.85em;
+    font-style: italic;
 }
 
 div.postbox:first-child {
@@ -124,7 +138,7 @@ div.imagepost {
 
 /*Taken from indexicalstyle.css*/
 p {
-  line-height: /*1.2*/ 1.4;
+  line-height: 1.4;
   margin: .3em 0
 }
 
@@ -139,7 +153,7 @@ a:hover {
   background-color: cornsilk; 
 }
 
-a:after {
+postbox a:after {
     content: "°";
 }
 
@@ -160,10 +174,13 @@ a:after {
     }
     div.long {
         border: 1px solid;
+    }
+
+    div.scroll {
         max-height: 80vh;
         overflow-y: auto;
     }
-
+    
     div.postbox + div.postbox {
         border-top: 1px solid;
     }
@@ -183,13 +200,15 @@ a:after {
         max-width: 100ch;
         font-size: 20px;
     }
-    p {line-height: 1.2}
+    p {line-height: 1.4}
     div.nav {
         grid-column: 1/1;
     }
+/*
     .nav a:hover {
         border-bottom: 0.06em dashed;
     }
+*/
     
     div.nav div.computer {display: block;}
     div.nav div.mobile {display: none;}
