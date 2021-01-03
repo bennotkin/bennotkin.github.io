@@ -9,7 +9,7 @@ title: Ben's Weblog
                <h2>{{ post.title }}</h2>
              {% endif %}
              {{ post.content }}
-             <p class="postdate">{{ page.date | date_to_string }} | <a href="{{ page.url }}">link</a></p>
+             <p class="postdate">{{ post.date | date_to_string }} | <a href="{{ post.url }}">link</a></p>
         </div>
       {% endfor %}
 </div>

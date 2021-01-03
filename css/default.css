@@ -129,7 +129,7 @@ p {
 }
 
 a {
-  color: black;
+  color: inherit;
   text-decoration:none;
 /*  border-bottom-style:dashed;*/
   border-bottom-width: .06em;
@@ -140,7 +140,15 @@ a:hover {
 }
 
 a:after {
-    content: "°"
+    content: "°";
+}
+
+.postdate a {
+    text-decoration: underline;
+}
+
+.postdate a:after {
+    content: none;
 }
 
 @media only screen and (orientation: landscape) and (min-device-width: 1000px) {
