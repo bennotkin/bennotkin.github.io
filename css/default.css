@@ -77,6 +77,11 @@ div.postbox {
     padding: 2ch;
 }
 
+p.postdate {
+    text-align: right;
+    color: darkgrey;
+}
+
 div.postbox:first-child {
     padding-top: 0}
 
@@ -126,12 +131,16 @@ p {
 a {
   color: black;
   text-decoration:none;
-  border-bottom-style:dashed;
+/*  border-bottom-style:dashed;*/
   border-bottom-width: .06em;
 }
 
 a:hover {
-  font-style: italic; 
+  background-color: cornsilk; 
+}
+
+a:after {
+    content: "°"
 }
 
 @media only screen and (orientation: landscape) and (min-device-width: 1000px) {
