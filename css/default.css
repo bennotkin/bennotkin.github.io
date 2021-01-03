@@ -92,7 +92,7 @@ div.postbox {
 p.postdate {
     text-align: right;
     color: darkgrey;
-    font-size: 0.85em;
+    font-size: 1rem;
     font-style: italic;
     font-family: sans-serif;
 }
