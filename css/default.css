@@ -86,7 +86,7 @@ div.mobile h2 {
 /*editing the blog index*/
 
 div.postbox {
-    padding: 2ch;
+    padding: 2ch 4ch;
 }
 
 p.postdate {
@@ -94,6 +94,7 @@ p.postdate {
     color: darkgrey;
     font-size: 0.85em;
     font-style: italic;
+    font-family: sans-serif;
 }
 
 div.postbox:first-child {
@@ -139,7 +140,7 @@ div.imagepost {
 /*Taken from indexicalstyle.css*/
 p {
   line-height: 1.4;
-  margin: .3em 0
+/*  margin: .3em 0*/
 }
 
 a {
