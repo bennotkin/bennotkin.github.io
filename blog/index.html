@@ -8,7 +8,11 @@ title: Ben's Weblog
              {% if post.length == "long" %}
                <h2>{{ post.title }}</h2>
              {% endif %}
-             {{ post.content }}
+             {% if post.more == "false" %}
+               {{ post.content }}
+             {% else %}
+                {{ post.excerpt }}
+             {% endif %}
              <p class="postdate">{{ post.date | date_to_string }}; <a href="{{ post.url }}">permalink</a>.</p>
         </div>
       {% endfor %}

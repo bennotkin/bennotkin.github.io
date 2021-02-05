@@ -10,3 +10,6 @@ defaults:
       layout: "post"
       length: "short"
       scroll: "noScroll" # should the post scroll separately? use for especially long posts
+      more: "false"
+
+excerpt_separator: <!--more-->
