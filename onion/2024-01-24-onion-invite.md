@@ -1,4 +1,4 @@
-![["Onions, c. 1937–47, Maurice Grosser"](https://www.clevelandart.org/art/1949.183)](https://raw.githubusercontent.com/bennotkin/bennotkin.github.io/master/assets/onions.png)
+![["Onions, c. 1937–47, Maurice Grosser"](https://www.clevelandart.org/art/1949.183)](https://raw.githubusercontent.com/bennotkin/bennotkin.github.io/master/assets/onions-900.png)
 
 # Consider the Onion
 
