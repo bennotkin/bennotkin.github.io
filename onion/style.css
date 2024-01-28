@@ -1,0 +1,160 @@
+html {
+  color: #1a1a1a;
+  background-color: white;
+}
+body {
+  font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  margin: 0 auto;
+  max-width: 36em;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  font-size: 16px;
+}
+@media (max-width: 600px) {
+  body {
+    font-size: 0.9em;
+    padding: 12px;
+  }
+  h1 {
+    font-size: 1.2em;
+  }
+}
+/* @media print {
+  html {
+    background-color: white;
+  }
+  body {
+    background-color: transparent;
+    color: black;
+    font-size: 12pt;
+  }
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2, h3, h4 {
+    page-break-after: avoid;
+  }
+} */
+p {
+  margin: 1em 0;
+}
+a {
+  color: #1a1a1a;
+}
+a:visited {
+  color: #1a1a1a;
+}
+figure {
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+svg {
+  height: auto;
+  max-width: 100%;
+}
+h1 {
+  font-size: 1.2em;
+  font-weight: normal;
+  text-align: center;
+}
+h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+  font-style: italic;
+}
+h3 {
+  /* font-variant: small-caps; */
+  font-weight: normal;
+  font-size: 1.1em;
+  /* font-style: italic; */
+  color: grey;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.4em;
+}
+h2, h3 {
+  margin-bottom: 0;
+}
+h5, h6 {
+  font-size: 1em;
+  font-style: italic;
+}
+h6 {
+  font-weight: normal;
+}
+ol, ul {
+  padding-left: 1.7em;
+  margin-top: 0.5em;
+}
+li > ol, li > ul {
+  margin-top: 0;
+}
+blockquote {
+  margin: 1em 0 1em 1.7em;
+  padding-left: 1em;
+  border-left: 2px solid #e6e6e6;
+  color: #606060;
+}
+
+hr {
+  background-color: #1a1a1a;
+  border: none;
+  height: 1px;
+  margin: 1em 0;
+}
+
+#TOC a:not(:hover) {
+  text-decoration: none;
+}
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+/* The extra [class] is a hack that increases specificity enough to
+   override a similar rule in reveal.js */
+ul.task-list[class]{list-style: none;}
+
+figcaption, figcaption a, figcaption a:visited {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  color: grey;
+  text-align: right;
+  font-size: 0.8em;
+}
+
+aside {
+  font-size: 0.8em;
+  font-color: grey;
+}
+
+/* div.details {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  line-height: 1.2;
+  font-size
+} */
+
+/* .sc {
+  font-variant: small-caps;
+} */
+
+.sms a:any-link {
+  color: grey;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  font-size: 0.9em;
+  /* font-variant: small-caps; */
+}
+
+a.footnote-ref:any-link {
+  text-decoration-line: none;
+  font-size: 0.8em;
+  /* color: grey; */
+}
