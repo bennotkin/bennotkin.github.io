@@ -16,8 +16,8 @@ Seattle, WA 98115<br>
 
 ### Your attendance options
 
-- I want to shed tears with you! aka COMMIINNNG <span class="sms"><a href="sms:+12063498392?&body=I can come I can come!">Send SMS.</a></span>
-- ｡°(°.◜ᯅ◝°)°｡   I'm shedding tears already! I can't come <span class="sms"><a href="sms:+12063498392?&body=I'm so so sorry, I can't come">Send SMS.</a></span>
+- I want to shed tears with you! aka COMMIINNNG <span class="sms"><a href="sms:+12063498392?&body=I can come I can come!">Send SMS</a></span>
+- ｡°(°.◜ᯅ◝°)°｡   I'm shedding tears already! I can't come <span class="sms"><a href="sms:+12063498392?&body=I'm so so sorry, I can't come :(">Send SMS</a></span>
 
 ### Additional readings
 
