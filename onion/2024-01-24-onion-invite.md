@@ -4,7 +4,7 @@
 
 ## Dear friend!
 
-You are cordially[^†] invited to a contemplative, rooting, and lachrymal celebration of the precious onion, next Saturday, February 3<sup>rd</sup>. Alliaceous provisions provided; appropriate additions accepted. If desired, bring your own beloved knife.
+You are cordially[^†] invited to a contemplative, rooting, and lachrymal evening – _nay! celebration_ – of the precious onion, next Saturday. Alliaceous provisions provided; appropriate additions accepted. If desired, bring your own beloved knife.
 
 ### Some details
 
@@ -17,7 +17,7 @@ Seattle, WA 98115<br>
 ### Your attendance options
 
 - I want to shed tears with you! aka COMMIINNNG <span class="sms"><a href="sms:+12063498392?&body=Coming! …">Send SMS.</a></span>
-- ｡°(°.◜ᯅ◝°)°｡   I'm shedding tears already! I can't come <span class="sms"><a href="sms:+12063498392?&body=Not coming!…">Send SMS.</a></span>
+- ｡°(°.◜ᯅ◝°)°｡   I'm shedding tears already! I can't come <span class="sms"><a href="sms:+12063498392?&body=I'm so so sorry, I can't come">Send SMS.</a></span>
 
 ### Additional readings
 
